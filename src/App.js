@@ -37,10 +37,11 @@ function About() {
         I am seeking opportunities to further develop my skills and knowledge and transition into a professional Mechanical Engineer role.
       </p>
 
-      <h3 className='text-2xl text-gray-800 pt-5'>Skills</h3>
-      <h2 className='text-xl pt-5'>Software Skills</h2>
+      <h3 className='text-3xl text-gray-800 pt-5'>Skills</h3>
+      <hr></hr>
+      <h2 className='text-2xl pt-5'>Software Skills</h2>
       <SoftwareSkills/>
-      <h2 className='text-xl pt-5 pb-3'>Engineering Skills</h2>
+      <h2 className='text-2xl pt-5 pb-3'>Engineering Skills</h2>
       <EngineeringSkills/>
     </div>
   );
@@ -64,7 +65,7 @@ function SoftwareSkills() {
     <div>
       {skills.map((skill)=>{
         return (
-          <div className='grid grid-cols-5 gap-3 pt-2'>
+          <div className='grid grid-cols-5 gap-3 pt-2 text-gray-600'>
             <div className='col-span-1 text-lg'><b>{skill.type}</b></div>
             <div className='col-span-4'>{skill.details}</div>
           </div>
@@ -78,7 +79,7 @@ function EngineeringSkills() {
   const skills=["SolidWorks", "AutoCAD", "Revit", "Design and Manufacturing", "Control Principles", "Mechatronic", "Building Sevice Mechanical System", "Coordination", "Electrical Technology"];
 
   return(
-    <ul className='list-disc'>
+    <ul className='list-disc text-gray-600'>
       {skills.map((skill)=>{
         return(
           <li className='pt-1'>{skill}</li>
