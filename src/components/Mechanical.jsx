@@ -4,7 +4,7 @@ import EducationHistory from "../data/education-history.js";
 import Mechanical_Skills from "../data/mechanical-skills.js";
 import Icon from "../logo.svg";
 
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
 	return(
@@ -62,6 +62,7 @@ function Introduction() {
 		<h1 className="text-6xl font-bold">Hi, I'm {preferredName}</h1>
 		<h3 className='text-2xl font-semibold pt-2'>{name}</h3>
 		<h4 className='text-xl pt-4'>{title}</h4>
+		<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
 	  </div>
 	);
   }
@@ -132,7 +133,7 @@ function Introduction() {
   
   function MainPage() {
 	return(
-	  <div className='block object-center'>
+	  <div className='block object-center pb-20'>
 
 		{/* The About Me section */}
 		<h3 className='text-3xl text-slate-100 pt-5'>About Me</h3>

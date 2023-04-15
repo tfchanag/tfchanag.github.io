@@ -1,11 +1,10 @@
 import React from "react";
-import Icon from "../logo.svg";
-import TKST from "../images/Projects/TKST/TKSt.jpg";
-import Galaxy from "../images/Projects/Galaxy/Galaxy.jpg";
-import W128 from "../images/Projects/WR128/128.jpg";
-import KokoHills from "../images/Projects/Kokohills.jpg";
-import FYP2 from "../images/Projects/FYP-2.jpg";
-import BeerPouring from "../images/Projects/Beerpouring.jpg";
+import Icon from "../../logo.svg";
+import WR128Pic from "../../images/Projects/WR128/128.jpg";
+import DR from "../../images/Projects/TKST/DR.jpg";
+import PL from "../../images/Projects/TKST/PL.jpg";
+import GREY from "../../images/Projects/TKST/GREY.jpg";
+import SCHE from "../../images/Projects/TKST/SCHE.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -55,79 +54,67 @@ function Nav() {
 	);
 };
 
-function Projects() {
+function TopPic() {
 	return(
-		<div className="pt-28 pb-20 text-white">
-			<section className="grid grid-cols-5">
-				<div className="col-span-2"><Link to="/tkst"><img src={TKST} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Tonkin Street Residential Development
-					<p className="text-lg pt-2">
-						Designed and calculated mechancial system for a single tower residential with podium and parking lot
-					</p>
-				</div>
-			</section>
-
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/galaxy"><img src={Galaxy} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Galaxy Hotel Phase 3
-					<p className="text-lg pt-2">
-						Designed plumbing & drainage system for casino and hotel portion
-					</p>
-				</div>
-			</section>
-
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/wr128"><img src={W128} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Waterloo Road 128 Residential Development
-					<p className="text-lg pt-2">
-						Designed and calculated mechancial system for a single tower residential with parking lot
-					</p>
-				</div>
-			</section>
-
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={KokoHills} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Koko Hills Residential Development
-					<p className="text-lg pt-2">
-						On-site engineer inspection and testing of mechanical system, on-site design coordination
-					</p>
-				</div>
-			</section>
-
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={FYP2} className="hover:scale-110 transition duration-300 w-96 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Design and Development of an Ultralight Insect Like Flying Robot
-					<p className="text-lg pt-2">
-						Designed a flapping wing robot that minmic insect flying pattern
-					</p>
-				</div>
-			</section>
-
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={BeerPouring} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
-					Beer Pouring Machine
-					<p className="text-lg pt-2">
-						Designed an automatic beer bottle pouring meachatronic
-					</p>
-				</div>
-			</section>
+		<div>
+			<img src={WR128Pic} className="pt-10 w-full  h-96"></img>
 		</div>
 	);
 };
 
-const mProjects = () => {
+function Description() {
+	return(
+		<div className="pt-10 text-white">
+			<p className="text-3xl col-span-3">My Role</p>
+			<br/>
+			<p>
+				As a <text className="font-semibold text-lime-500">plumbing and drainage (PL & DR) assistant engineer</text> , 
+				I worked closely with the Project Engineer to design the PL & DR systems for residential building.
+				<br/>
+				Solved <text className="font-semibold text-lime-500">complex freshwater lead-in connection issues</text> by conducting site visits and coordinating closely with the government's Water 
+				Supplies Department, leveraging strong problem-solving and communication skills.
+				<br/>
+				Overcame a significant challenge by designing the last manholes connecting to the public manholes, which required <text className="font-semibold text-lime-500">constructing a manhole 
+				close to a heritage building and under one of the busiest streets</text>, ultimately securing government approval.
+			</p>
+			<p className="pt-10 text-3xl col-span-3">Project Description</p>
+			<br/>
+			<p>
+				This residential building is a 16 story high building with <text className="font-semibold text-lime-500">2 floors of clubhouse, 
+				parking lot and 16 floors of residential housing</text>. Seating on top of an existing electrical power transformer station.
+				<br/>
+				This project was seating near the <text className="font-semibold text-lime-500">busiest & old street of Hong Kong and near a heritage building</text>
+				, the complex underground utilities affect the construction of PL & DR systems.
+			</p>
+			
+		</div>
+	);
+};
+
+function Pictures() {
+	return(
+		<div className="pt-10 pb-20">
+			<section className="grid grid-cols-2 gap-7">
+				<div className="col-span-1"><img src={DR} className="w-full rounded-xl"/></div>
+				<div className="col-span-1"><img src={PL} className="w-full rounded-xl"/></div>
+			</section>
+			<section className="pt-3 grid grid-cols-2 gap-7">
+				<div className="col-span-1"><img src={GREY} className="w-full rounded-xl"/></div>
+				<div className="col-span-1"><img src={SCHE} className="w-full rounded-xl"/></div>
+			</section>
+			
+		</div>
+	);
+}
+
+const WR128 = () => {
 	return(
 		<div className='container mx-auto px-20'>
 			<Nav/>
-			<Projects/>
+			<TopPic/>
+			<Description/>
 		</div>
 	);
 };
 
-export default mProjects;
+export default WR128;

@@ -1,11 +1,11 @@
 export const Mechanical_Skills = [
-	"SolidWorks",
+	"Building Sevice Mechanical System",
 	"AutoCAD",
-	"Revit",
+	"Revit MEP",
 	"Design and Manufacturing",
+	"SolidWorks",
 	"Control Principles", 
 	"Mechatronic",
-	"Building Sevice Mechanical System",
 	"Coordination",
 	"Electrical Technology"
 ]
