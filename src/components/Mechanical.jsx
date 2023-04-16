@@ -58,7 +58,7 @@ function Introduction() {
 	let title = "Mechanical Designer / Technologist";
   
 	return(
-	  <div className="pt-28 text-white">
+	  <div className="pt-20 sm:pt-28 text-white">
 		<h1 className="text-3xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
 		<h3 className='text-2xl sm:text-2xl font-semibold pt-2'>{name}</h3>
 		<h4 className='text-xl pt-4'>{title}</h4>
@@ -133,7 +133,7 @@ function Introduction() {
   
   function MainPage() {
 	return(
-	  <div className='block object-center pb-20'>
+	  <div className='sm:block sm:object-center'>
 
 		{/* The About Me section */}
 		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>About Me</h3>
@@ -159,7 +159,7 @@ function Introduction() {
 
 const Mechanical = () => {
 	return(
-		<div className='container mx-auto sm:px-20'>
+		<div>
 			<Nav/>
 			<Introduction/>
 			<MainPage/>

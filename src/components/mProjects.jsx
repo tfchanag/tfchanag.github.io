@@ -58,19 +58,21 @@ function Nav() {
 function Projects() {
 	return(
 		<div className="pt-20 sm:pt-28 pb-20 text-white">
-			<section className="sm:grid sm:grid-cols-5">
-				<div className="sm:col-span-2"><Link to="/tkst"><img src={TKST} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
-					Tonkin Street Residential Development
-					<p className="text-base font-normal sm:text-lg pt-2">
-						Designed and calculated mechancial system for a single tower residential with podium and parking lot
-					</p>
-				</div>
-			</section>
+			<Link to="/tkst">
+				<section className="sm:grid sm:grid-cols-5">
+					<div className="sm:col-span-2"><img src={TKST} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></div>
+					<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+						Tonkin Street Residential Development
+						<p className="text-base font-normal sm:text-lg pt-2">
+							Designed and calculated mechancial system for a single tower residential with podium and parking lot
+						</p>
+					</div>
+				</section>
+			</Link>
 
-			<section className="sm:grid sm:grid-cols-5 pt-3">
-				<div className="sm:col-span-2"><Link to="/galaxy"><img src={Galaxy} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-5">
+				<div className="sm:col-span-2"><Link to="/galaxy"><img src={Galaxy} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></Link></div>
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Galaxy Hotel Phase 3
 					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed plumbing & drainage system for casino and hotel portion
@@ -78,9 +80,9 @@ function Projects() {
 				</div>
 			</section>
 
-			<section className="sm:grid sm:grid-cols-5 pt-3">
-				<div className="sm:col-span-2"><Link to="/wr128"><img src={W128} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-5">
+				<div className="sm:col-span-2"><Link to="/wr128"><img src={W128} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></Link></div>
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Waterloo Road 128 Residential Development
 					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed and calculated mechancial system for a single tower residential with parking lot
@@ -88,9 +90,9 @@ function Projects() {
 				</div>
 			</section>
 
-			<section className="sm:grid sm:grid-cols-5 pt-3">
-				<div className="sm:col-span-2"><Link to="/"><img src={KokoHills} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-5">
+				<div className="sm:col-span-2"><Link to="/"><img src={KokoHills} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></Link></div>
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Koko Hills Residential Development
 					<p className="text-base font-normal sm:text-lg pt-2">
 						On-site engineer inspection and testing of mechanical system, on-site design coordination
@@ -98,9 +100,9 @@ function Projects() {
 				</div>
 			</section>
 
-			<section className="sm:grid sm:grid-cols-5 pt-3">
-				<div className="sm:col-span-2"><Link to="/"><img src={FYP2} className="hover:scale-110 transition duration-300 w-96 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-5">
+				<div className="sm:col-span-2"><Link to="/"><img src={FYP2} className="sm:hover:scale-110 transition duration-300 w-96 mx-auto rounded-3xl"/></Link></div>
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Design and Development of an Ultralight Insect Like Flying Robot
 					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed a flapping wing robot that minmic insect flying pattern
@@ -108,9 +110,9 @@ function Projects() {
 				</div>
 			</section>
 
-			<section className="sm:grid sm:grid-cols-5 pt-3">
-				<div className="sm:col-span-2"><Link to="/"><img src={BeerPouring} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-5">
+				<div className="sm:col-span-2"><Link to="/"><img src={BeerPouring} className="sm:hover:scale-110 sm:transition sm:duration-300 w-72 mx-auto rounded-3xl"/></Link></div>
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Beer Pouring Machine
 					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed an automatic beer bottle pouring meachatronic
@@ -123,7 +125,7 @@ function Projects() {
 
 const mProjects = () => {
 	return(
-		<div className='container mx-auto sm:px-20'>
+		<div>
 			<Nav/>
 			<Projects/>
 		</div>

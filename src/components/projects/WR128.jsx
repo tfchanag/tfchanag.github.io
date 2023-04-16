@@ -107,7 +107,7 @@ function Pictures() {
 
 const WR128 = () => {
 	return(
-		<div className='container mx-auto sm:px-20'>
+		<div>
 			<Nav/>
 			<TopPic/>
 			<Description/>

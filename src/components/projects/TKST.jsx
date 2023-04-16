@@ -109,7 +109,7 @@ function Pictures() {
 
 const TKST = () => {
 	return(
-		<div className='container mx-auto sm:px-20 pb-20'>
+		<div>
 			<Nav/>
 			<TopPic/>
 			<Description/>

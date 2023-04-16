@@ -15,7 +15,7 @@ import WR128 from './components/projects/WR128';
 
 function App() {
   return (
-    <div className='container mx-auto px-20'>
+    <div className='sm:container sm:mx-auto sm:px-20 px-6 pb-10'>
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Home/>}/>

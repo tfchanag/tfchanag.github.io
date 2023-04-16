@@ -106,7 +106,7 @@ function Pictures() {
 
 const Galaxy = () => {
 	return(
-		<div className='container mx-auto sm:px-20'>
+		<div>
 			<Nav/>
 			<TopPic/>
 			<Description/>
