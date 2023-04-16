@@ -105,9 +105,6 @@ function Pictures() {
 }
 
 const Galaxy = () => {
-	useEffect(()=> {
-		document.title = "Galaxy";
-	})
 	return(
 		<div>
 			<Nav/>

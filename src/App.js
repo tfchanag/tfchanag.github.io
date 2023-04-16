@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import React, { useEffect } from "react";
 
 import Home from './components/Home';
 import Mechanical from './components/Mechanical';
@@ -14,6 +15,10 @@ import Galaxy from './components/projects/Galaxy';
 import WR128 from './components/projects/WR128';
 
 function App() {
+	useEffect(() => {
+		document.title = "Richie Chan's Page";  
+	  }, []);
+
   return (
     <div className='sm:container sm:mx-auto sm:px-20 px-6 pb-10'>
       <BrowserRouter>

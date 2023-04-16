@@ -124,9 +124,6 @@ function Projects() {
 };
 
 const mProjects = () => {
-	useEffect(()=> {
-		document.title = "My Projects";
-	})
 	return(
 		<div>
 			<Nav/>
