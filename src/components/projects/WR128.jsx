@@ -106,6 +106,9 @@ function Pictures() {
 }
 
 const WR128 = () => {
+	useEffect(()=> {
+		document.title = "WR128";
+	})
 	return(
 		<div>
 			<Nav/>

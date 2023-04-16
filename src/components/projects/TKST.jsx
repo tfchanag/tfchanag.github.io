@@ -108,6 +108,9 @@ function Pictures() {
 }
 
 const TKST = () => {
+	useEffect(()=> {
+		document.title = "TKST";
+	})
 	return(
 		<div>
 			<Nav/>

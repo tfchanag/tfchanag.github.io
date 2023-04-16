@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 
@@ -29,6 +29,9 @@ function Nav() {
 }
 
 const Home = () => {
+	useEffect(()=> {
+		document.title = "Richie Chan's Page";
+	})
 	return(
 	<div>
 		<Nav/>

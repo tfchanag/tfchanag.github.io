@@ -158,6 +158,9 @@ function Introduction() {
   }
 
 const Mechanical = () => {
+	useEffect(()=> {
+		document.title = "About Me";
+	})
 	return(
 		<div>
 			<Nav/>
