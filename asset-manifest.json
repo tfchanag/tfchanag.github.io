@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b574093.css",
-    "main.js": "/static/js/main.35023619.js",
+    "main.js": "/static/js/main.a57f4fca.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Kokohills.jpg": "/static/media/Kokohills.7ab6a4643db7fa94d662.jpg",
     "static/media/FYP-2.jpg": "/static/media/FYP-2.7b297474980258132299.jpg",
@@ -18,11 +18,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.3b574093.css.map": "/static/css/main.3b574093.css.map",
-    "main.35023619.js.map": "/static/js/main.35023619.js.map",
+    "main.a57f4fca.js.map": "/static/js/main.a57f4fca.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b574093.css",
-    "static/js/main.35023619.js"
+    "static/js/main.a57f4fca.js"
   ]
 }
