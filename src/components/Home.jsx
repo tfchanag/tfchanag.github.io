@@ -19,9 +19,9 @@ const Home = () => {
 	return(
 	<div>
 		<Nav/>
-		<h1 className='text-6xl text-white text-center pt-24'>Welcome to Richie Chan's Page</h1>
+		<h1 className='text-xl text-white text-center pt-24 sm:text-6xl'>Welcome to Richie Chan's Page</h1>
 		<div className="grid grid-rows-1 grid-cols-2 pt-11 gap-11">
-			<button className="block text-center text-5xl h-80 border-gray-800 border-solid border-4 rounded-3xl transition duration-300 text-gray-800 bg-slate-400 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:text-white hover:scale-110">
+			<button className="block text-center text-base sm:text-5xl h-20 sm:h-80 border-gray-800 border-solid border-4 rounded-3xl transition duration-300 text-gray-800 bg-slate-400 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:text-white hover:scale-110">
 				<Link to="/mechanical">Mechanical</Link>
 			</button>
 			{/* <button className="block text-center text-5xl h-80 border-gray-800 border-solid border-4 rounded-3xl transition duration-300 text-gray-800 bg-slate-400 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:text-white hover:scale-110">

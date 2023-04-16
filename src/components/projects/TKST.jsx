@@ -24,10 +24,10 @@ function Nav() {
 						</button>
 					</a>
 					
-					<button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+					{/* <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
 						<span class="sr-only">Open main menu</span>
 						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-					</button>
+					</button> */}
 				</div>
 
 				<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
@@ -57,17 +57,16 @@ function Nav() {
 function TopPic() {
 	return(
 		<div>
-			<img src={TKSTPic} className="pt-10 w-full  h-96"></img>
+			<img src={TKSTPic} className="pt-16 sm:p-20 w-full sm:h-96"></img>
 		</div>
 	);
 };
 
 function Description() {
 	return(
-		<div className="pt-10 text-white">
-			<p className="text-3xl col-span-3">My Role</p>
-			<br/>
-			<p>
+		<div className="pt-5 sm:pt-10 text-white">
+			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
+			<p className="pt-2 text-sm sm:text-base">
 				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> , I worked closely with the Project Manager to coordinate the MEP design for the entire building.
 				This included designing systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling.</text>
 				<br/>
@@ -77,9 +76,8 @@ function Description() {
 				<br/>
 				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
 			</p>
-			<p className="pt-10 text-3xl col-span-3">Project Description</p>
-			<br/>
-			<p>
+			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
+			<p className="pt-2 text-sm sm:text-base">
 				This residential building is a 28 story high building with <text className="font-semibold text-lime-500">3 floors of shopping mall (w/ F&B), a underground parking lot, a floor of sky garden, a floor of clubhouse and 25 floors of residential housing</text>.
 				The residential portion of the building was designed to construct using&nbsp;
 				<a href="https://www.snclavalin.com/en/beyond-engineering/key-to-success-for-modular-integrated-construction#:~:text=Modular%20integrated%20construction%20uses%20prefabricated,installed%20in%20their%20final%20positions." className="italic text-blue-500 font-semibold">
@@ -111,7 +109,7 @@ function Pictures() {
 
 const TKST = () => {
 	return(
-		<div className='container mx-auto px-20'>
+		<div className='container mx-auto sm:px-20 pb-20'>
 			<Nav/>
 			<TopPic/>
 			<Description/>

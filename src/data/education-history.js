@@ -10,7 +10,7 @@ export const EducationHistory = [
 	{
 		"year": "2015 Sep - 2019 Jul",
 		"cert": "Bachelor of Engineering in Mechanical Engineering",
-		"school": "The Hong Kon University of Science and Technology, Hong Kong",
+		"school": "The Hong Kong University of Science and Technology, Hong Kong",
 		"key-courses-software": "Control Principles, Mechatronic Design and Prototyping",
 		"key-courses-mech":"Control Principles, Mechatronic Design and Prototyping, Design and Manufacturing, Thermodynamics, Fluid Mechanics, Electrical Technology",
 		"pic": require("../images/Education/HKUST.jpg")

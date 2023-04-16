@@ -22,10 +22,10 @@ function Nav() {
 						</button>
 					</a>
 					
-					<button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+					{/* <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
 						<span class="sr-only">Open main menu</span>
 						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-					</button>
+					</button> */}
 				</div>
 
 				<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
@@ -59,8 +59,8 @@ function Introduction() {
   
 	return(
 	  <div className="pt-28 text-white">
-		<h1 className="text-6xl font-bold">Hi, I'm {preferredName}</h1>
-		<h3 className='text-2xl font-semibold pt-2'>{name}</h3>
+		<h1 className="text-3xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
+		<h3 className='text-2xl sm:text-2xl font-semibold pt-2'>{name}</h3>
 		<h4 className='text-xl pt-4'>{title}</h4>
 		<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
 	  </div>
@@ -70,11 +70,11 @@ function Introduction() {
   function About() {
 	return(
 	  <div>
-		<p className='text-slate-300 text-lg'>A Junior Mechanical Designer with knowledge of buildings' mechanical systems, mechatronics & mechanical design.
+		<p className='text-slate-300 text-base sm:text-lg'>A Junior Mechanical Designer with knowledge of buildings' mechanical systems, mechatronics & mechanical design.
 		  I am seeking opportunities to further develop my skills and knowledge and transition into a professional Mechanical Engineer role.
 		</p>
   
-		<h3 className='text-3xl text-slate-100 pt-5'>Skills</h3>
+		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
 		<hr></hr>
 		<br/>
 		<EngineeringSkills/>
@@ -85,7 +85,7 @@ function Introduction() {
   function EngineeringSkills() {
 	var skillList = Mechanical_Skills.join(' | ');
 	return(
-		<div className='list-disc text-slate-300 text-lg'>
+		<div className='list-disc text-slate-300 text-base sm:text-lg'>
 			{skillList}
 		</div>
 	);
@@ -93,14 +93,14 @@ function Introduction() {
   
   function EmploymentHistory() {
 	return(
-		<div className="text-lg text-slate-300">
+		<div className="text-base sm:text-lg text-slate-300">
 			{WorkHistory.map(job => {
 				return(
 					<section className="flex">
-						<img src={job.pic} className="h-20 rounded-full"/>
-						<div className="pl-8 pb-5">
+						<img src={job.pic} className="h-10 sm:h-20 rounded-full"/>
+						<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
 							<p>{job.year}</p>
-							<p className="font-bold text-xl">{job.title}</p>
+							<p className="font-bold text-base sm:text-xl">{job.title}</p>
 							<p>{job.company}</p>
 						</div>
 					</section>
@@ -113,14 +113,14 @@ function Introduction() {
 
   function Education() {
 	return(
-		<div className="text-lg text-slate-300">
+		<div className="text-base sm:text-lg text-slate-300">
 			{EducationHistory.map(school => {
 				return(
 					<section className="flex">
-						<img src={school.pic} className="h-20 rounded-full"/>
-						<div className="pl-8 pb-5">
+						<img src={school.pic} className="h-10 sm:h-20 rounded-full"/>
+						<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
 							<p>{school.year}</p>
-							<p className="font-bold text-xl">{school.cert}</p>
+							<p className="font-bold text-base sm:text-xl">{school.cert}</p>
 							<p>{school.school}</p>
 							<p className="font-thin italic">Key courses: {school["key-courses-mech"]}</p>
 						</div>
@@ -136,19 +136,19 @@ function Introduction() {
 	  <div className='block object-center pb-20'>
 
 		{/* The About Me section */}
-		<h3 className='text-3xl text-slate-100 pt-5'>About Me</h3>
+		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>About Me</h3>
 		<hr></hr>
 		<br/>
 		<About/>
 		
 		{/* Employment History section */}
-		<h3 className='text-3xl text-slate-100 pt-5'>My Experience</h3>
+		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>My Experience</h3>
 		<hr></hr>
 		<br/>
 		<EmploymentHistory/>
 
 		{/* Education section */}
-		<h3 className='text-3xl text-slate-100 pt-5'>Education</h3>
+		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>Education</h3>
 		<hr></hr>
 		<br/>
 		<Education/>
@@ -159,7 +159,7 @@ function Introduction() {
 
 const Mechanical = () => {
 	return(
-		<div className='container mx-auto px-20'>
+		<div className='container mx-auto sm:px-20'>
 			<Nav/>
 			<Introduction/>
 			<MainPage/>

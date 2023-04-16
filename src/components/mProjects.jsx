@@ -25,10 +25,10 @@ function Nav() {
 						</button>
 					</a>
 					
-					<button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+					{/* <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
 						<span class="sr-only">Open main menu</span>
 						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-					</button>
+					</button> */}
 				</div>
 
 				<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
@@ -57,62 +57,62 @@ function Nav() {
 
 function Projects() {
 	return(
-		<div className="pt-28 pb-20 text-white">
-			<section className="grid grid-cols-5">
-				<div className="col-span-2"><Link to="/tkst"><img src={TKST} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+		<div className="pt-20 sm:pt-28 pb-20 text-white">
+			<section className="sm:grid sm:grid-cols-5">
+				<div className="sm:col-span-2"><Link to="/tkst"><img src={TKST} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Tonkin Street Residential Development
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed and calculated mechancial system for a single tower residential with podium and parking lot
 					</p>
 				</div>
 			</section>
 
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/galaxy"><img src={Galaxy} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-3">
+				<div className="sm:col-span-2"><Link to="/galaxy"><img src={Galaxy} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Galaxy Hotel Phase 3
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed plumbing & drainage system for casino and hotel portion
 					</p>
 				</div>
 			</section>
 
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/wr128"><img src={W128} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-3">
+				<div className="sm:col-span-2"><Link to="/wr128"><img src={W128} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Waterloo Road 128 Residential Development
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed and calculated mechancial system for a single tower residential with parking lot
 					</p>
 				</div>
 			</section>
 
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={KokoHills} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-3">
+				<div className="sm:col-span-2"><Link to="/"><img src={KokoHills} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Koko Hills Residential Development
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						On-site engineer inspection and testing of mechanical system, on-site design coordination
 					</p>
 				</div>
 			</section>
 
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={FYP2} className="hover:scale-110 transition duration-300 w-96 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-3">
+				<div className="sm:col-span-2"><Link to="/"><img src={FYP2} className="hover:scale-110 transition duration-300 w-96 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Design and Development of an Ultralight Insect Like Flying Robot
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed a flapping wing robot that minmic insect flying pattern
 					</p>
 				</div>
 			</section>
 
-			<section className="grid grid-cols-5 pt-3">
-				<div className="col-span-2"><Link to="/"><img src={BeerPouring} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
-				<div className="pl-8 text-3xl col-span-3">
+			<section className="sm:grid sm:grid-cols-5 pt-3">
+				<div className="sm:col-span-2"><Link to="/"><img src={BeerPouring} className="hover:scale-110 transition duration-300 w-72 rounded-3xl"/></Link></div>
+				<div className="text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
 					Beer Pouring Machine
-					<p className="text-lg pt-2">
+					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed an automatic beer bottle pouring meachatronic
 					</p>
 				</div>
@@ -123,7 +123,7 @@ function Projects() {
 
 const mProjects = () => {
 	return(
-		<div className='container mx-auto px-20'>
+		<div className='container mx-auto sm:px-20'>
 			<Nav/>
 			<Projects/>
 		</div>

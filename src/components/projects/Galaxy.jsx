@@ -24,10 +24,10 @@ function Nav() {
 						</button>
 					</a>
 					
-					<button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+					{/* <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
 						<span class="sr-only">Open main menu</span>
 						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-					</button>
+					</button> */}
 				</div>
 
 				<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
@@ -57,17 +57,16 @@ function Nav() {
 function TopPic() {
 	return(
 		<div>
-			<img src={GalaxyPic} className="pt-10 w-full  h-96"></img>
+			<img src={GalaxyPic} className="pt-16 sm:p-20 w-full sm:h-96"></img>
 		</div>
 	);
 };
 
 function Description() {
 	return(
-		<div className="pt-10 pb-20 text-white">
-			<p className="text-3xl col-span-3">My Role</p>
-			<br/>
-			<p>
+		<div className="pt-5 sm:pt-10 text-white">
+			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
+			<p className="pt-2 text-sm sm:text-base">
 				As a <text className="font-semibold text-lime-500">plumbing and drainage (PL & DR) assistant engineer</text>,
 				I worked closely with the Project Engineer to design the PL & DR systems for building complexes, 
 				including hotels, casinos, shopping plazas, and open landscape areas. 
@@ -79,9 +78,8 @@ function Description() {
 				and ensure that all work complied with relevant codes of practice for both parties.
 				
 			</p>
-			<p className="pt-10 text-3xl col-span-3">Project Description</p>
-			<br/>
-			<p>
+			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
+			<p className="pt-2 text-sm sm:text-base">
 				This entertainment hotel complex composted of <text className="font-semibold text-lime-500">hotel towers, a casino plaza, shopping plaza with F&B, parking lot and a open landscape area</text>.
 				One of the largest entertainment project in Macau.
 			</p>
@@ -108,7 +106,7 @@ function Pictures() {
 
 const Galaxy = () => {
 	return(
-		<div className='container mx-auto px-20'>
+		<div className='container mx-auto sm:px-20'>
 			<Nav/>
 			<TopPic/>
 			<Description/>
