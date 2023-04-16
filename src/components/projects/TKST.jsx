@@ -5,6 +5,7 @@ import DR from "../../images/Projects/TKST/DR.jpg";
 import PL from "../../images/Projects/TKST/PL.jpg";
 import GREY from "../../images/Projects/TKST/GREY.jpg";
 import SCHE from "../../images/Projects/TKST/SCHE.jpg";
+import resume from "../../resume/richieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -18,7 +19,7 @@ function Nav() {
 				</div>
 
 				<div class="flex md:order-2">
-					<a href='../../resume/richieChanResume.pdf' download>
+					<a href={resume} download>
 						<button id='btnDowload' value="download" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 							Download Resume
 						</button>
@@ -38,12 +39,12 @@ function Nav() {
 							</p>
 						</li>
 						<li>
-							<p class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								<Link to="/mechanical">About</Link>
 							</p>
 						</li>
 						<li>
-							<p class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
+							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								<Link to="/mechanical_projects">Projects</Link>
 							</p>
 						</li>
