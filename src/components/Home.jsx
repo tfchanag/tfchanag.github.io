@@ -58,37 +58,50 @@ const Home = () => {
 	return(
 	<div>
 		<Nav/>
-		<h1 className='text-xl text-white pt-24 sm:text-6xl'>Who? Richie Chan?</h1>
-		<div className="text-slate-300 pt-11 gap-11 sm:text-lg">
+		<h1 className='text-2xl font-bold text-white pt-24 sm:text-6xl'>Who is Richie Chan?</h1>
+		<div className="text-slate-300 pt-5 gap-11 sm:text-lg">
 			<div>
-				<ul>
+				<ul className="list-disc">
 					<li className="pt-2">
-						🎓2019: Graduated from <a href="https://hkust.edu.hk/" className="italic text-blue-500 font-semibold">Hong Kong University of Science and Technology</a> 
+						🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold">Hong Kong University of Science and Technology</a> 
 						&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mech.</text>
 					</li>
 					<li className="pt-2">
-						🏗️2019: Worked at <a href="https://www.hiphing.com.hk/en/" className="italic text-blue-500 font-semibold">Hip Hing</a> 
+						🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold">Hip Hing</a> 
 						&nbsp;as <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, built Koko Hills
 					</li>
 					<li className="pt-2">
-						🏢2020: Worked at <a href="https://www.aurecongroup.com/" className="italic text-blue-500 font-semibold">Aurecon</a> 
+						🏢 '20: Worked at <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold">Aurecon</a> 
 						&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed mech. systems for 3+ projects
 					</li>
 					<li className="pt-2">
-						🌎2021: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
+						🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
 					</li>
 					<li className="pt-2">
-						👖2021: Working at <a href="https://www.uniqlo.com/ca/en/" className="italic text-blue-500 font-semibold">Uniqlo</a> to support my living
+						👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold">Uniqlo</a> to support my living
 					</li>
 					<li className="pt-2">
-						🧑🏼‍🎓2022: Graduated from <a href="https://www.sheridancollege.ca/" className="italic text-blue-500 font-semibold">Sheridan College</a>
-						&nbsp;with Diploma in <text className="font-semibold text-lime-500">Computer Programming</text>
+						🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold">Sheridan College</a>
+						&nbsp;with Dip. in <text className="font-semibold text-lime-500">Computer Programming</text>
 					</li>
 					<li className="pt-2">
-						🍁2023: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada
+						🍁 '23: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada
+					</li>
+					<li className="pt-2 font-semibold text-xl sm:text-2xl">
+						👷🏻‍♂️ '23: Strive for an opputunity to start my journey becoming <text className="text-lime-500">PEng.</text>
 					</li>
 				</ul>
 			</div>
+			<br/>
+			<div className="grid sm:grid-cols-4 grid-cols-2">
+				<p className="pt-0 col-span-1">Know more about me</p>
+				<div className="col-span-1 sm:col-span-3"><Link to="/about"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">About</button></Link></div>
+				<p className="pt-2 col-span-1">Know more my experiences</p>
+				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Experience</button></Link></div>
+				<p className="pt-2 col-span-1">Know more my projects</p>
+				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical_projects"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Projects</button></Link></div>
+			</div>
+			
 			{/* <button className="block text-center text-base sm:text-5xl h-20 sm:h-80 border-gray-800 border-solid border-4 rounded-3xl transition duration-300 text-gray-800 bg-slate-400 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:text-white hover:scale-110">
 				<Link to="/mechanical">Mechanical</Link>
 			</button>

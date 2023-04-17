@@ -67,7 +67,7 @@ function Projects() {
 			<Link to="/tkst">
 				<section className="sm:grid sm:grid-cols-5">
 					<div className="sm:col-span-2 "><img src={TKST} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-slate-800">
+					<div className="mt-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
 						<p className="pt-0 sm:pt-2">Tonkin Street Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential with podium and parking lot
@@ -78,8 +78,8 @@ function Projects() {
 
 			<section className="sm:grid sm:grid-cols-5 pt-5">
 				<div className="sm:col-span-2"><Link to="/galaxy"><img src={Galaxy} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></Link></div>
-				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
-					Galaxy Hotel Phase 3
+				<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<p className="pt-0 sm:pt-2">Galaxy Hotel Phase 3</p>
 					<p className="text-base font-normal sm:text-lg pt-2">
 						Designed plumbing & drainage system for casino and hotel portion
 					</p>
