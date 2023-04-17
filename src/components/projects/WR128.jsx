@@ -5,7 +5,7 @@ import DR from "../../images/Projects/TKST/DR.jpg";
 import PL from "../../images/Projects/TKST/PL.jpg";
 import GREY from "../../images/Projects/TKST/GREY.jpg";
 import SCHE from "../../images/Projects/TKST/SCHE.jpg";
-import resume from "../../resume/richieChanResume.pdf";
+import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -39,12 +39,17 @@ function Nav() {
 							</p>
 						</li>
 						<li>
-							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
-								<Link to="/mechanical">About</Link>
+							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+								<Link to="/about">About</Link>
 							</p>
 						</li>
 						<li>
 							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+								<Link to="/mechanical">Experience</Link>
+							</p>
+						</li>
+						<li>
+							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								<Link to="/mechanical_projects">Projects</Link>
 							</p>
 						</li>

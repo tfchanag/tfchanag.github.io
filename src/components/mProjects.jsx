@@ -6,7 +6,7 @@ import W128 from "../images/Projects/WR128/128.jpg";
 import KokoHills from "../images/Projects/Kokohills.jpg";
 import FYP2 from "../images/Projects/FYP-2.jpg";
 import BeerPouring from "../images/Projects/Beerpouring.jpg";
-import resume from "../resume/richieChanResume.pdf";
+import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -40,12 +40,17 @@ function Nav() {
 							</p>
 						</li>
 						<li>
-							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
-								<Link to="/mechanical">About</Link>
+							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+								<Link to="/about">About</Link>
 							</p>
 						</li>
 						<li>
 							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+								<Link to="/mechanical">Experience</Link>
+							</p>
+						</li>
+						<li>
+							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								<Link to="/mechanical_projects">Projects</Link>
 							</p>
 						</li>
@@ -61,9 +66,9 @@ function Projects() {
 		<div className="pt-20 sm:pt-28 pb-20 text-white">
 			<Link to="/tkst">
 				<section className="sm:grid sm:grid-cols-5">
-					<div className="sm:col-span-2"><img src={TKST} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></div>
-					<div className="pt-2 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3">
-						Tonkin Street Residential Development
+					<div className="sm:col-span-2 "><img src={TKST} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></div>
+					<div className="mt-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-slate-800">
+						<p className="pt-0 sm:pt-2">Tonkin Street Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential with podium and parking lot
 						</p>

@@ -3,7 +3,7 @@ import WorkHistory from '../data/work-history.js';
 import EducationHistory from "../data/education-history.js";
 import Mechanical_Skills from "../data/mechanical-skills.js";
 import Icon from "../logo.svg";
-import resume from "../resume/richieChanResume.pdf";
+import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -37,8 +37,13 @@ function Nav() {
 							</p>
 						</li>
 						<li>
+							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+								<Link to="/about">About</Link>
+							</p>
+						</li>
+						<li>
 							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
-								<Link to="/mechanical">About</Link>
+								<Link to="/mechanical">Experience</Link>
 							</p>
 						</li>
 						<li>
@@ -59,20 +64,21 @@ function Introduction() {
 	let title = "Mechanical Designer / Technologist";
   
 	return(
-	  <div className="pt-20 sm:pt-28 text-white">
-		<h1 className="text-3xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
-		<h3 className='text-2xl sm:text-2xl font-semibold pt-2'>{name}</h3>
-		<h4 className='text-xl pt-4'>{title}</h4>
-		<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
-	  </div>
+		<div className="pt-20 sm:pt-28 text-white">
+			<h1 className="text-3xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
+			<h3 className='text-2xl sm:text-2xl font-semibold pt-2'>{name}</h3>
+			<h4 className='text-xl pt-4'>{title}</h4>
+			<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
+	  	</div>
 	);
   }
   
   function About() {
 	return(
 	  <div>
-		<p className='text-slate-300 text-base sm:text-lg'>A Junior Mechanical Designer with knowledge of buildings' mechanical systems, mechatronics & mechanical design.
-		  I am seeking opportunities to further develop my skills and knowledge and transition into a professional Mechanical Engineer role.
+		<p className='text-slate-300 text-base sm:text-lg'>
+			An experienced Mechanical Designer with knowledge of buildings' mechanical systems, mechatronics & mechanical design.
+			I am seeking opportunities to further develop my skills and knowledge and transition into a professional Mechanical Engineer role.
 		</p>
   
 		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
