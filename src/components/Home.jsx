@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
+import Footer from "./Footer";
 
 function Nav() {
 	return(
@@ -94,17 +95,18 @@ const Home = () => {
 				</ul>
 			</div>
 			<br/>
-			<div className="grid sm:grid-cols-4 grid-cols-2">
+			{/* <div className="grid sm:grid-cols-4 grid-cols-2">
 				<p className="pt-0 col-span-1">Know more about me</p>
 				<div className="col-span-1 sm:col-span-3"><Link to="/about"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">About</button></Link></div>
 				<p className="pt-2 col-span-1">Know more my experiences</p>
 				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Experience</button></Link></div>
 				<p className="pt-2 col-span-1">Know more my projects</p>
 				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical_projects"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Projects</button></Link></div>
-			</div>
+			</div> */}
 		</div>
 		<br/>
 		<Outlet/>
+		<Footer/>
 	</div>
 	);
 };

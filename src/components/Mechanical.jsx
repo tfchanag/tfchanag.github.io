@@ -6,6 +6,7 @@ import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
+import Footer from "./Footer.jsx";
 
 function Nav() {
 	return(
@@ -64,7 +65,7 @@ function Introduction() {
 	let title = "Mechanical Designer / Technologist";
   
 	return(
-		<div className="pt-20 sm:pt-24 text-white">
+		<div className="pt-2 sm:pt-5 text-white">
 			<h1 className="text-2xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
 			<h3 className='text-1xl sm:text-2xl font-semibold pt-2'>{name}</h3>
 			<h4 className='text-xl pt-4'>{title}</h4>
@@ -170,8 +171,15 @@ const Mechanical = () => {
 	return(
 		<div>
 			<Nav/>
+			<Link to="/">
+				<a href="#" class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
+					Home
+				</a>
+			</Link>
 			<Introduction/>
 			<MainPage/>
+			<Footer/>
 		</div>
 	);
 };

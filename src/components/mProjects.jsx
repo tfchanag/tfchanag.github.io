@@ -9,6 +9,7 @@ import BeerPouring from "../images/Projects/Beerpouring.jpg";
 import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Nav() {
 	return(
@@ -63,8 +64,14 @@ function Nav() {
 
 function Projects() {
 	return(
-		<div className="pt-20 sm:pt-24 pb-20 text-white">
-			<p className="text-2xl font-bold text-white sm:text-6xl pb-5">Projects I Worked On</p>
+		<div className="pb-20 text-white">
+			<Link to="/">
+				<a href="#" class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
+					Home
+				</a>
+			</Link>
+			<p className="pt-2 sm:pt-5 text-2xl font-bold text-white sm:text-6xl pb-5">Projects I Worked On</p>
 			<Link to="/tkst">
 				<section className="sm:grid sm:grid-cols-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2 "><img src={TKST} className="w-72 mx-auto rounded-3xl"/></div>
@@ -140,6 +147,7 @@ const mProjects = () => {
 		<div>
 			<Nav/>
 			<Projects/>
+			<Footer/>
 		</div>
 	);
 };
