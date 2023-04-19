@@ -58,31 +58,31 @@ const Home = () => {
 	return(
 	<div>
 		<Nav/>
-		<h1 className='text-2xl font-bold text-white pt-24 sm:text-6xl'>Who is Richie Chan?</h1>
+		<h1 className='text-2xl font-bold text-white pt-20 sm:text-6xl'>Who is Richie Chan?</h1>
 		<div className="text-slate-300 pt-5 gap-11 sm:text-lg">
 			<div>
 				<ul className="list-disc">
 					<li className="pt-2">
-						🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold">Hong Kong University of Science and Technology</a> 
+						🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
 						&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mech.</text>
 					</li>
 					<li className="pt-2">
-						🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold">Hip Hing</a> 
+						🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a> 
 						&nbsp;as <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, built Koko Hills
 					</li>
 					<li className="pt-2">
-						🏢 '20: Worked at <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold">Aurecon</a> 
-						&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed mech. systems for 3+ projects
+						🏢 '20: Worked at <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> 
+						&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed MEP systems for 3+ projects
 					</li>
 					<li className="pt-2">
 						🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
 					</li>
 					<li className="pt-2">
-						👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold">Uniqlo</a> to support my living
+						👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Uniqlo Canada</a> to support my living
 					</li>
 					<li className="pt-2">
-						🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold">Sheridan College</a>
-						&nbsp;with Dip. in <text className="font-semibold text-lime-500">Computer Programming</text>
+						🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>
+						&nbsp;with <text className="font-semibold text-lime-500">Dip. in Computer Programming</text>
 					</li>
 					<li className="pt-2">
 						🍁 '23: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada

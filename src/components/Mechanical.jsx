@@ -77,10 +77,12 @@ function Introduction() {
 	return(
 	  <div>
 		<p className='text-slate-300 text-base sm:text-lg'>
-			An experienced Mechanical Designer with knowledge of buildings' mechanical systems, mechatronics & mechanical design.
-			I am seeking opportunities to further develop my skills and knowledge and transition into a professional Mechanical Engineer role.
+		As an experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
+		I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
+		for high-rise residential, entertainment and hotel projects. I am skilled in project coordination, Revit BIM MEP, 
+		AutoCAD 2D drafting, on-site coordination and inspection. I am eager to further develop my skills and knowledge 
+		and transition into a professional engineering role. I am excited to contribute my expertise to new and challenging projects.
 		</p>
-  
 		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
 		<hr></hr>
 		<br/>
