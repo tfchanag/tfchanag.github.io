@@ -58,7 +58,7 @@ const Home = () => {
 	return(
 	<div>
 		<Nav/>
-		<h1 className='text-2xl font-bold text-white pt-20 sm:text-6xl'>Who is Richie Chan?</h1>
+		<h1 className='text-2xl font-bold text-white pt-20 sm:pt-24 sm:text-6xl'>Who is Richie Chan?</h1>
 		<div className="text-slate-300 pt-5 gap-11 sm:text-lg">
 			<div>
 				<ul className="list-disc">

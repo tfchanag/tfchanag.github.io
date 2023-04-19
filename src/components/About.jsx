@@ -5,6 +5,7 @@ import resume from "../resume/RichieChanResume.pdf";
 import HKUST from "../images/About/HKUST.jpg";
 import mechanical from "../images/About/mechanical.jpeg";
 import mecha from "../images/About/mecha.jpg";
+import amsterdam from "../images/About/Amsterdam.JPG";
 
 function Nav() {
 	return(
@@ -61,7 +62,7 @@ const About = () => {
 	return(
 		<div>
 			<Nav/>
-			<div className="pt-20">
+			<div className="pt-20 sm:pt-24">
 				<p className="text-2xl font-bold text-white sm:text-6xl pb-5">This is my journey</p>
 				<ol class="relative border-l border-gray-200 dark:border-gray-700">                  
 					<li class="mb-10 ml-4">
@@ -72,7 +73,8 @@ const About = () => {
 							Through endeavour and will, I joined one of the most prestige university in Hong Kong - <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
 							&nbsp;and enrolled in Bachleor in Engineering Program.
 						</p>
-						<img src={HKUST} className="sm:w-1/2 w-full"/>
+						<img src={HKUST} className="sm:w-1/3 w-full"/>
+						
 					</li>
 					<li class="mb-10 ml-4">
 						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -81,21 +83,21 @@ const About = () => {
 						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
 							I chose major in mechanical engineering, not only for the love of mecha, also I wanted my future career to be helpful to the society, improving wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, so at the end I chose mechanical engineering.
 						</p>
-						<div className="flex gap-1 sm:gap-2">
+						<div className="flex gap-1 sm:gap-2 sm:w-1/3">
 							<img src={mechanical} className="w-1/2"/>
 							<img src={mecha} className="w-1/2"/>
 						</div>
 					</li>
 					<li class="mb-10 ml-4">
 						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2016</time>
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanical Engineering</h3>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2017</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Exchange in Netherland</h3>
 						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
-							I chose major in mechanical engineering, not only for the love of mecha, also I wanted my future career to be helpful to the society, improving wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, so at the end I chose mechanical engineering.
+							I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Eindhoven University of Technology</a> as an exchange student for 6 months, I was amazed how industrial focus their mechanical engineering program are. Even fluid dynamic they taught were industrial piping theory.
+							Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and the heritage buildings and modernize it by adding MEP system to it.
 						</p>
-						<div className="flex gap-1 sm:gap-2">
-							<img src={mechanical} className="w-1/2"/>
-							<img src={mecha} className="w-1/2"/>
+						<div className="">
+							<img src={amsterdam} className="sm:w-1/3 w-2/3"/>
 						</div>
 					</li>
 				</ol>

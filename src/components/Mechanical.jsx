@@ -64,7 +64,7 @@ function Introduction() {
 	let title = "Mechanical Designer / Technologist";
   
 	return(
-		<div className="pt-20 sm:pt-28 text-white">
+		<div className="pt-20 sm:pt-24 text-white">
 			<h1 className="text-3xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
 			<h3 className='text-2xl sm:text-2xl font-semibold pt-2'>{name}</h3>
 			<h4 className='text-xl pt-4'>{title}</h4>

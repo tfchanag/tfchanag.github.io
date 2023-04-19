@@ -63,7 +63,7 @@ function Nav() {
 
 function Projects() {
 	return(
-		<div className="pt-20 sm:pt-28 pb-20 text-white">
+		<div className="pt-20 sm:pt-24 pb-20 text-white">
 			<Link to="/tkst">
 				<section className="sm:grid sm:grid-cols-5">
 					<div className="sm:col-span-2 "><img src={TKST} className="sm:hover:scale-110 transition duration-300 w-72 mx-auto rounded-3xl"/></div>
