@@ -3,9 +3,20 @@ import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
 import HKUST from "../images/About/HKUST.jpg";
+import HKUSTMe from "../images/About/HKUST-Me.jpg";
 import mechanical from "../images/About/mechanical.jpeg";
 import mecha from "../images/About/mecha.jpg";
 import amsterdam from "../images/About/Amsterdam.JPG";
+import TTC from "../images/About/TTC.jpg";
+import VEX from "../images/About/vex.png";
+import FYP from "../images/About/FYP.jpg";
+import present from "../images/About/Presentation.jpg";
+import Chateau from "../images/About/Chateau.webp";
+import SFR from "../images/About/SFR.jpg";
+import AUR from "../images/About/AUR.jpg";
+import AUR2 from "../images/About/AUR2.jpg";
+import now from "../images/About/Now.jpg";
+import Parkroyal from "../images/About/Parkroyal.jpg";
 
 function Nav() {
 	return(
@@ -30,26 +41,26 @@ function Nav() {
 				</div>
 
 				<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-					<ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+					<ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 						<li>
-							<p class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+							<a class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								<Link to="/">Home</Link>
-							</p>
+							</a>
 						</li>
 						<li>
-							<p href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
+							<a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								<Link to="/about">About</Link>
-							</p>
+							</a>
 						</li>
 						<li>
-							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+							<a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								<Link to="/mechanical">Experience</Link>
-							</p>
+							</a>
 						</li>
 						<li>
-							<p href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+							<a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								<Link to="/mechanical_projects">Projects</Link>
-							</p>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -63,17 +74,32 @@ const About = () => {
 		<div>
 			<Nav/>
 			<div className="pt-20 sm:pt-24">
-				<p className="text-2xl font-bold text-white sm:text-6xl pb-5">This is my journey</p>
+				<p className="text-2xl font-bold text-white sm:text-6xl pb-5">My Journey</p>
 				<ol class="relative border-l border-gray-200 dark:border-gray-700">                  
 					<li class="mb-10 ml-4">
 						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2015</time>
 						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Study at HKUST</h3>
 						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
-							Through endeavour and will, I joined one of the most prestige university in Hong Kong - <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
+							Through endeavour and will power, I was accepted in one of the most prestige university in Hong Kong - <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
 							&nbsp;and enrolled in Bachleor in Engineering Program.
 						</p>
-						<img src={HKUST} className="sm:w-1/3 w-full"/>
+						<div className="flex-shrink gap-1 sm:gap-2 sm:w-2/3">
+							<img src={HKUST} className="w-1/2"/>
+							<img src={HKUSTMe} className="w-1/2"/>
+						</div>
+						
+						
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2016</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Intern at Technology Transfer Center</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							Got a opputunities to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>
+							&nbsp;Learned a lot about contract law, technology's patent related procedures and legal terms. Have been Working there for 2 years, gained lots of contract knowledge there.
+						</p>
+						<img src={TTC} className="sm:w-1/3 w-full"/>
 						
 					</li>
 					<li class="mb-10 ml-4">
@@ -81,7 +107,9 @@ const About = () => {
 						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2016</time>
 						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanical Engineering</h3>
 						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
-							I chose major in mechanical engineering, not only for the love of mecha, also I wanted my future career to be helpful to the society, improving wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, so at the end I chose mechanical engineering.
+							I chose major in mechanical engineering, not only for the love of mecha robots, also I wanted my future career to be helpful to the society and 
+							improving citizen's wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, 
+							so at the end I chose mechanical engineering.
 						</p>
 						<div className="flex gap-1 sm:gap-2 sm:w-1/3">
 							<img src={mechanical} className="w-1/2"/>
@@ -93,15 +121,130 @@ const About = () => {
 						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2017</time>
 						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Exchange in Netherland</h3>
 						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
-							I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Eindhoven University of Technology</a> as an exchange student for 6 months, I was amazed how industrial focus their mechanical engineering program are. Even fluid dynamic they taught were industrial piping theory.
-							Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and the heritage buildings and modernize it by adding MEP system to it.
+							I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Eindhoven University of Technology</a> 
+							&nbsp;as an exchange student for 6 months, I was amazed how industrial focus their mechanical engineering program are. Even fluid dynamic they taught 
+							were industrial piping theory. Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and 
+							the heritage buildings and modernize it by adding MEP system to it.
 						</p>
 						<div className="">
-							<img src={amsterdam} className="sm:w-1/3 w-2/3"/>
+							<img src={amsterdam} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2018</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Work at Brainchild</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Brainchild</a> was my second company 
+							I worked with. Taught kids built VEX robot for VEX IQ competition, DIY anything they have in mind and write simple programming. It was challenging since children 
+							have a lot of ideas, I fulfilled them using limited tools and material. But, it's fun to work with children on projects.
+						</p>
+						<div className="">
+							<img src={VEX} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2018</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Final Year Project</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							I worked under Prof. Huihe QIU, designed an Ultralight Insect Like Flying Robot. A year development of this robot was challenging,
+							our team changed our major design concept once, and few design concepts multiple times, fortunatly we could develop it on time.
+						</p>
+						<div className="">
+							<img src={FYP} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2019</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Scored "A" for FYP!!!</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							With the help of my team members and Prof. QIU, we completed the FYP with excellency. I scored an "A" for this project, I am proud of myself and my team.
+						</p>
+						<div className="">
+							<img src={present} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">April 2019</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Deciding My Future</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							My university journey is near the end, and my future career is yet to decide. Then I stumble appon this TV series, <a href="https://en.wikipedia.org/wiki/Escape_to_the_Chateau" target="_blank" className="italic text-blue-500 font-semibold underline">Escape to the Chateau</a>.
+							Watching this married couple bought an old Chateau in France with cheap price and transferring it into a modernized Chateau with elevator, electricity, gas and lighting.
+							I was fasinated how they design and construct all of those all by themselves. I was inspired that I wanted to do something 
+							like them, design and construct MEP system for buildings, make living space enjoyable and comfortable.
+						</p>
+						<div className="">
+							<img src={Chateau} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2019</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Construction MEP Job</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							After a long time of job search and rounds of interviews, I landed my job as Assistant Building Service Engineer in <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a>. 
+							My first ever project was to coordinate and inspect the MEP construction on-site for residential high-rise buildings.
+						</p>
+						<div className="">
+							<img src={SFR} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">Mar 2020</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">A MEP Consultant</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							I wanted to learn more about how to design MEP system and my goal was to become a licensed professional engineer in the future. 
+							So I joined <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> as 
+							an Assisant Mechanical Engineer. I was given 3+ projects to work on, learned and designed mechanical system on the job for high-rise residential,
+							entertainment and commercial buildings. I have designed solar hot water, greay water and rainwater recycling system, which was one of my objective, 
+							improving my city using green technologies. I was fortunate to work with these talented coworkers and innovative projects.
+						</p>
+						<div className="">
+							<img src={AUR} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2021</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Leaving Hong Kong</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							With everything happened in Hong Kong socially and politically. I decided to leave Hong Kong and start over again in Canada. 
+							Unfortunatly I have to leave Aurecon, it was great year working with lots of excellent seniors and managers.
+						</p>
+						<div className="">
+							<img src={AUR2} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Complete Study in Canada and Get PR</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							After a year and a half, I have finished a diploma in <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>. 
+							Fulfilling my requirment to get a permenant resident status in Canada.
+						</p>
+						<div className="">
+							<img src={AUR2} className="sm:w-1/3 w-full"/>
+						</div>
+					</li>
+					<li class="mb-10 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2023</time>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Job Searching in Toronto's MEP Industry</h3>
+						<p class="mb-4 text-base font-normal text-slate-300 dark:text-slate-300">
+							Now, I can shift my focus on starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk, 
+							experiences I gained from my journey, I am striving for opputunities in Toronto's MEP industry. Hoping I could contribute to 
+							Canada's carbon zero target and improving the wellbing of the Canadians through designing outstanding MEP systems.
+						</p>
+						<div className="">
+							<img src={now} className="sm:w-1/3 w-full"/>
 						</div>
 					</li>
 				</ol>
-
 			</div>
 		</div>
 	);
