@@ -10,16 +10,16 @@ const Footer = () => {
 					
 					<ul class="flex flex-wrap items-center gap-3 mb-6 text-sm font-medium text-gray-500 sm:mb-0">
 						<li>
-							<Link to="/"><button className="w-28 text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">Home</button></Link>
+							<Link to="/"><button className="w-28 bg-white border rounded-lg dark:bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium text-sm px-5 py-2.5 text-center">Home</button></Link>
 						</li>
 						<li>
-							<Link to="/about"><button className="w-28 text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">About</button></Link>
+							<Link to="/about"><button className="w-28 bg-white border rounded-lg dark:bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium text-sm px-5 py-2.5 text-center">About</button></Link>
 						</li>
 						<li>
-							<Link to="/mechanical"><button className="w-28 text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">Experience</button></Link>
+							<Link to="/mechanical"><button className="w-28 bg-white border rounded-lg dark:bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium text-sm px-5 py-2.5 text-center">Experience</button></Link>
 						</li>
 						<li>
-							<Link to="/mechanical_projects"><button className="w-28 text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center">Projects</button></Link>
+							<Link to="/mechanical_projects"><button className="w-28 bg-white border rounded-lg dark:bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:outline-none focus:ring-gray-100 font-medium text-sm px-5 py-2.5 text-center">Projects</button></Link>
 						</li>
 					</ul>
 					<a href="https://www.linkedin.com/in/richie-chan-12a3ab212/" target="_blank" rel="noopener noreferrer">

@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
-import TKSTPic from "../../images/Projects/TKST/TKST-BIM.jpg";
+import fypPic from "../../images/Projects/FYP/FYP.jpg";
 import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -60,7 +60,8 @@ function Nav() {
 function TopPic() {
 	return(
 		<div>
-			<img src={TKSTPic} className="pt-2 sm:pt-5 object-cover"></img>
+			{/* <img src={fypPic} className="pt-2 sm:pt-5 object-cover"></img> */}
+			<iframe className="w-full h-56 sm:h-96 pt-2 sm:pt-5" src="https://www.youtube.com/embed/MuhYXhpLLKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 	);
 };
@@ -70,36 +71,28 @@ function Description() {
 		<div className="pt-2 sm:pt-5 text-white">
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
-				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> , I worked closely with the Project Manager to coordinate the MEP design for the entire building.
-				This included designing systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling.</text>
-				<br/>
-				During the tender phase of the project, I actively participated in coordinating with the structural engineer, architect, and in-house MEP engineer to ensure seamless integration of MEP systems with other parties.
-				<br/>
-				I successfully coordinated and built a <text className="font-semibold text-lime-500">Revit model</text> using an external drafting company.
-				<br/>
-				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
+				I was the project leader of this Final Year Project. I have actively <text className="font-semibold text-lime-500">produced a project schedule, research on flapping wing 
+				aerodynamic theory and wrote design specification</text>. Showcased my ability to self learn an advance and new topic. The final grade of 
+				this project was <text className="font-semibold text-lime-500">"A"</text>
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
-				This residential building is a 28 story high building with <text className="font-semibold text-lime-500">3 floors of shopping mall (w/ F&B), a underground parking lot, a floor of sky garden, a floor of clubhouse and 25 floors of residential housing</text>.
-				The residential portion of the building was designed to construct using&nbsp;
-				<a href="https://www.snclavalin.com/en/beyond-engineering/key-to-success-for-modular-integrated-construction#:~:text=Modular%20integrated%20construction%20uses%20prefabricated,installed%20in%20their%20final%20positions." className="italic text-blue-500 font-semibold">
-					Modular Integrated Construction method (MiC)
-				</a>.
-				MiC method bring challenges to MEP department, the structure of each apartment will be partly steel, partly concrete. 
-				MEP service usually running inside concrete will need a different approach when designing.
+				This project was to design <text className="font-semibold text-lime-500">a flapping wing robot which is light weighted and 
+				with aerial ability</text>. There were two main objectives in this design project, designing an independent controlling system for 
+				both pitching and flapping mechanism being the first goal. Then, using small and light actuators for pitching and flapping would 
+				be the second. Since the goal was to fly, the body material must withstand pressure from motor and being light at the same time.
 			</p>
 			
 		</div>
 	);
 };
 
-const TKST = () => {
+const FYP = () => {
 	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 		<div>
 			<Nav/>
-			<Link to="/mechanical_projects">
+			<Link to="/mechanical_projects" >
 				<a class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white">
 					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
 					Previous
@@ -112,4 +105,4 @@ const TKST = () => {
 	);
 };
 
-export default TKST;
+export default FYP;

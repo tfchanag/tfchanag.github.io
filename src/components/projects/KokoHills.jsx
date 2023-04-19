@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
-import TKSTPic from "../../images/Projects/TKST/TKST-BIM.jpg";
+import SitePic from "../../images/Projects/KokoHills/sitePic.jpg";
 import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -60,7 +60,7 @@ function Nav() {
 function TopPic() {
 	return(
 		<div>
-			<img src={TKSTPic} className="pt-2 sm:pt-5 object-cover"></img>
+			<img src={SitePic} className="pt-2 sm:pt-5 object-cover"></img>
 		</div>
 	);
 };
@@ -70,36 +70,27 @@ function Description() {
 		<div className="pt-2 sm:pt-5 text-white">
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
-				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> , I worked closely with the Project Manager to coordinate the MEP design for the entire building.
-				This included designing systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling.</text>
-				<br/>
-				During the tender phase of the project, I actively participated in coordinating with the structural engineer, architect, and in-house MEP engineer to ensure seamless integration of MEP systems with other parties.
-				<br/>
-				I successfully coordinated and built a <text className="font-semibold text-lime-500">Revit model</text> using an external drafting company.
-				<br/>
-				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
+				As an <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, 
+				I actively inspect and test mechanical components(including HVAC, plumbing & drainage, electrical and fire protection system) 
+				and make sure the layout were constructed as designed. I have maintained accurate and detailed documentation of installation progress, 
+				inspection results, and testing records, ensuring compliance with all regulations and requirements.
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
-				This residential building is a 28 story high building with <text className="font-semibold text-lime-500">3 floors of shopping mall (w/ F&B), a underground parking lot, a floor of sky garden, a floor of clubhouse and 25 floors of residential housing</text>.
-				The residential portion of the building was designed to construct using&nbsp;
-				<a href="https://www.snclavalin.com/en/beyond-engineering/key-to-success-for-modular-integrated-construction#:~:text=Modular%20integrated%20construction%20uses%20prefabricated,installed%20in%20their%20final%20positions." className="italic text-blue-500 font-semibold">
-					Modular Integrated Construction method (MiC)
-				</a>.
-				MiC method bring challenges to MEP department, the structure of each apartment will be partly steel, partly concrete. 
-				MEP service usually running inside concrete will need a different approach when designing.
+				This project consist of 4 high-rise buildings with <text className="font-semibold text-lime-500">2 floors of clubhouse, 
+				parking lot and a public road with greenery area</text>.
 			</p>
 			
 		</div>
 	);
 };
 
-const TKST = () => {
+const KokoHills = () => {
 	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 		<div>
 			<Nav/>
-			<Link to="/mechanical_projects">
+			<Link to="/mechanical_projects" >
 				<a class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white">
 					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
 					Previous
@@ -112,4 +103,4 @@ const TKST = () => {
 	);
 };
 
-export default TKST;
+export default KokoHills;

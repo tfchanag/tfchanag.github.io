@@ -1,11 +1,10 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Icon from "../logo.svg";
 import TKST from "../images/Projects/TKST/TKSt.jpg";
 import Galaxy from "../images/Projects/Galaxy/Galaxy.jpg";
 import W128 from "../images/Projects/WR128/128.jpg";
-import KokoHills from "../images/Projects/Kokohills.jpg";
-import FYP2 from "../images/Projects/FYP-2.jpg";
-import BeerPouring from "../images/Projects/Beerpouring.jpg";
+import KokoHills from "../images/Projects/KokoHills/Kokohills.jpg";
+import FYP2 from "../images/Projects/FYP/FYP-2.jpg";
 import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -66,7 +65,7 @@ function Projects() {
 	return(
 		<div className="pb-20 text-white">
 			<Link to="/">
-				<a href="#" class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+				<a class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white">
 					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
 					Home
 				</a>
@@ -75,7 +74,7 @@ function Projects() {
 			<Link to="/tkst">
 				<section className="sm:grid sm:grid-cols-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2 "><img src={TKST} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
 						<p className="pt-0 sm:pt-2">Tonkin Street Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential with podium and parking lot
@@ -86,7 +85,7 @@ function Projects() {
 			<Link to="/galaxy">
 				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2"><img src={Galaxy} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
 						<p className="pt-0 sm:pt-2">Galaxy Hotel Phase 3</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed plumbing & drainage system for casino and hotel portion
@@ -97,7 +96,7 @@ function Projects() {
 			<Link to="/wr128">
 				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2"><img src={W128} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
 						<p className="pt-0 sm:pt-2">Waterloo Road 128 Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential with parking lot
@@ -105,10 +104,10 @@ function Projects() {
 					</div>
 				</section>
 			</Link>
-			<Link to="/">
+			<Link to="/kokohills">
 				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2"><img src={KokoHills} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
 						<p className="pt-0 sm:pt-2">Koko Hills Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							On-site engineer inspection and testing of mechanical system, on-site design coordination
@@ -116,24 +115,13 @@ function Projects() {
 					</div>
 				</section>
 			</Link>
-			<Link to="/">
+			<Link to="/fyp">
 				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300">
 					<div className="sm:col-span-2"><img src={FYP2} className="w-96 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
+					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
 						<p className="pt-0 sm:pt-2">Design and Development of an Ultralight Insect Like Flying Robot</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed a flapping wing robot that minmic insect flying pattern
-						</p>
-					</div>
-				</section>
-			</Link>
-			<Link to="/">
-				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300">
-					<div className="sm:col-span-2"><img src={BeerPouring} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 pl-2 pt-0 sm:pt-0 text-lg font-semibold sm:pl-8 sm:text-3xl sm:col-span-3 bg-lime-700">
-						<p className="pt-0 sm:pt-2">Beer Pouring Machine</p>
-						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed an automatic beer bottle pouring meachatronic
 						</p>
 					</div>
 				</section>
@@ -142,7 +130,8 @@ function Projects() {
 	);
 };
 
-const mProjects = () => {
+const MProjects = () => {
+	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 		<div>
 			<Nav/>
@@ -152,4 +141,4 @@ const mProjects = () => {
 	);
 };
 
-export default mProjects;
+export default MProjects;

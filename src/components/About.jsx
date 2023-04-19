@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
@@ -95,7 +95,7 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2016</time>
 					<h3 class="text-lg font-semibold text-white">Intern at Technology Transfer Center</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						Got a opputunities to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>
+						Got a opputunities to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>.
 						&nbsp;Learned a lot about contract law, technology's patent related procedures and legal terms. Have been Working there for 2 years, gained lots of contract knowledge there.
 					</p>
 					<img src={TTC} className="sm:w-1/3 w-full"/>
@@ -147,8 +147,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2018</time>
 					<h3 class="text-lg font-semibold text-white">Final Year Project</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I worked under Prof. Huihe QIU, designed an Ultralight Insect Like Flying Robot. A year development of this robot was challenging,
-						our team changed our major design concept once, and few design concepts multiple times, fortunatly we could develop it on time.
+						I worked under Prof. Huihe QIU, designed an Ultralight Insect Like Flying Robot. It was a exciting project, since the body weight
+						of the robot have to be light, the material had to be light and at the same time can withhold the force from motor. Flapping wing 
+						motion was difficult to replicate in a tiny robot.
 					</p>
 					<div className="">
 						<img src={FYP} className="sm:w-1/3 w-full"/>
@@ -159,7 +160,12 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2019</time>
 					<h3 class="text-lg font-semibold text-white">Scored "A" for FYP!!!</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						With the help of my team members and Prof. QIU, we completed the FYP with excellency. I scored an "A" for this project, I am proud of myself and my team.
+						With the help of my team members and Prof. QIU, we completed the FYP with excellency. I scored an "A" for this project, 
+						I am proud of myself and my team.
+						<br/>
+						<br/>
+						Checkout the final product <Link to="/fyp" className="italic text-blue-500 font-semibold underline">HERE</Link>
+
 					</p>
 					<div className="">
 						<img src={present} className="sm:w-1/3 w-full"/>
@@ -249,11 +255,12 @@ function AboutMe() {
 };
 
 const About = () => {
+	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 		<div>
 			<Nav/>
 			<Link to="/">
-				<a href="#" class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+				<a class="mt-20 sm:mt-24 inline-flex items-center px-4 py-2 text-sm font-medium border rounded-lg bg-gray-800 border-gray-700 text-gray-400 hover:bg-gray-700 hover:text-white">
 					<svg aria-hidden="true" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
 					Home
 				</a>

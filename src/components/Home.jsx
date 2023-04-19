@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
@@ -57,6 +57,7 @@ function Nav() {
 };
 
 const Home = () => {
+	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 	<div>
 		<Nav/>
