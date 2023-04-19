@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b76b1ff.css",
-    "main.js": "/static/js/main.7a2889f2.js",
+    "main.css": "/static/css/main.69220bef.css",
+    "main.js": "/static/js/main.5835f1f8.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
+    "static/media/AUR2.jpg": "/static/media/AUR2.a8e3fd32011221bbc13f.jpg",
+    "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
     "static/media/mecha.jpg": "/static/media/mecha.a187073517318cb75f11.jpg",
     "static/media/Amsterdam.JPG": "/static/media/Amsterdam.8e3cf4978e509ca4d103.JPG",
     "static/media/Kokohills.jpg": "/static/media/Kokohills.7ab6a4643db7fa94d662.jpg",
+    "static/media/HKUST-Me.jpg": "/static/media/HKUST-Me.3cfe9029e36a31d8946a.jpg",
+    "static/media/Parkroyal.jpg": "/static/media/Parkroyal.b4b66d85e4fd8e3f8c64.jpg",
+    "static/media/Now.jpg": "/static/media/Now.d30964945af21ebdd3b0.jpg",
+    "static/media/FYP.jpg": "/static/media/FYP.346736e4814b2e6bf219.jpg",
     "static/media/HKUST.jpg": "/static/media/HKUST.d219756873f3dc581e84.jpg",
     "static/media/FYP-2.jpg": "/static/media/FYP-2.7b297474980258132299.jpg",
+    "static/media/Chateau.webp": "/static/media/Chateau.7934bb86a4311b97bd12.webp",
     "static/media/TKSt-BIM.jpg": "/static/media/TKSt-BIM.9ad6ac79abf0e8dd59aa.jpg",
     "static/media/PL.jpg": "/static/media/PL.5a5ba0524068029ce392.jpg",
+    "static/media/TTC.jpg": "/static/media/TTC.41d4ba6ad8f892e1dbc6.jpg",
+    "static/media/vex.png": "/static/media/vex.c62fc171f297dfac3910.png",
+    "static/media/Presentation.jpg": "/static/media/Presentation.2033e26754e738a29eda.jpg",
+    "static/media/AUR.jpg": "/static/media/AUR.c963d9f04547f347c0e9.jpg",
     "static/media/SCHE.jpg": "/static/media/SCHE.ad6578dff5604af8993b.jpg",
     "static/media/GREY.jpg": "/static/media/GREY.2cefad38ac19f00cc5f6.jpg",
     "static/media/128.jpg": "/static/media/128.ebec3d938b653f00a604.jpg",
@@ -22,12 +33,12 @@
     "static/media/Beerpouring.jpg": "/static/media/Beerpouring.dd9e08d223f220d201d2.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.1b76b1ff.css.map": "/static/css/main.1b76b1ff.css.map",
-    "main.7a2889f2.js.map": "/static/js/main.7a2889f2.js.map",
+    "main.69220bef.css.map": "/static/css/main.69220bef.css.map",
+    "main.5835f1f8.js.map": "/static/js/main.5835f1f8.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b76b1ff.css",
-    "static/js/main.7a2889f2.js"
+    "static/css/main.69220bef.css",
+    "static/js/main.5835f1f8.js"
   ]
 }
