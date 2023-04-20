@@ -73,19 +73,21 @@ function Description() {
 				As a <text className="font-semibold text-lime-500">plumbing and drainage (PL & DR) assistant engineer</text> , 
 				I worked closely with the Project Engineer to design the PL & DR systems for residential building.
 				<br/>
-				Solved <text className="font-semibold text-lime-500">complex freshwater lead-in connection issues</text> by conducting site visits and coordinating closely with the government's Water 
-				Supplies Department, leveraging strong problem-solving and communication skills.
+				Solved <text className="font-semibold text-lime-500">complex freshwater lead-in connection issues</text> by conducting site visits 
+				and coordinating closely with the government's Water Supplies Department, leveraging strong problem-solving and communication skills.
 				<br/>
-				Overcame a significant challenge by designing the last manholes connecting to the public manholes, which required <text className="font-semibold text-lime-500">constructing a manhole 
-				close to a heritage building and under one of the busiest streets</text>, ultimately securing government approval.
+				Overcame a significant challenge by designing the last manholes connecting to the public manholes, which required 
+				<text className="font-semibold text-lime-500">constructing a manhole close to a heritage building and under one of the 
+				busiest streets</text>, ultimately securing government approval.
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
-				This residential building is a 16 story high building with <text className="font-semibold text-lime-500">2 floors of clubhouse, 
-				parking lot and 16 floors of residential housing</text>. Seating on top of an existing electrical power transformer station.
+				The project involved the construction of a 16-story residential building with <text className="font-semibold text-lime-500">2 
+				floors of clubhouse, parking lot and 16 floors of residential housing</text>. Seating on top of an existing electrical power 
+				transformer station.
 				<br/>
-				This project was seating near the <text className="font-semibold text-lime-500">busiest & old street of Hong Kong and near a heritage building</text>
-				, the complex underground utilities affect the construction of PL & DR systems.
+				This project was seating near the <text className="font-semibold text-lime-500">busiest & old street of Hong Kong and near a 
+				heritage building</text>, the complex underground utilities posed a challenge for the design and construction of the PL & DR systems.
 			</p>
 			
 		</div>

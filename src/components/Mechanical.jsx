@@ -72,100 +72,100 @@ function Introduction() {
 			<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
 	  	</div>
 	);
-  }
+}
   
-  function About() {
-	return(
-	  <div>
-		<p className='text-slate-300 text-base sm:text-lg'>
-		As an experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
-		I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
-		for high-rise residential, entertainment and hotel projects. I am skilled in project coordination, Revit BIM MEP, 
-		AutoCAD 2D drafting, on-site coordination and inspection. I am eager to further develop my skills and knowledge 
-		and transition into a professional engineering role. I am excited to contribute my expertise to new and challenging projects.
-		</p>
-		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
-		<hr></hr>
-		<br/>
-		<EngineeringSkills/>
-	  </div>
-	);
-  }
+function About() {
+return(
+	<div>
+	<p className='text-slate-300 text-base sm:text-lg'>
+	As an experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
+	I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
+	for high-rise residential, entertainment and hotel projects. I am skilled in project coordination, Revit BIM MEP, 
+	AutoCAD 2D drafting, on-site coordination and inspection. I am eager to further develop my skills and knowledge 
+	and transition into a professional engineering role. I am excited to contribute my expertise to new and challenging projects.
+	</p>
+	<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
+	<hr></hr>
+	<br/>
+	<EngineeringSkills/>
+	</div>
+);
+}
   
-  function EngineeringSkills() {
-	var skillList = Mechanical_Skills.join(' | ');
-	return(
-		<div className='list-disc text-slate-300 text-base sm:text-lg'>
-			{skillList}
-		</div>
-	);
-  }
+function EngineeringSkills() {
+var skillList = Mechanical_Skills.join(' | ');
+return(
+	<div className='list-disc text-slate-300 text-base sm:text-lg'>
+		{skillList}
+	</div>
+);
+}
   
-  function EmploymentHistory() {
-	return(
-		<div className="text-base sm:text-lg text-slate-300">
-			{WorkHistory.map(job => {
-				return(
-					<section className="flex">
-						<img src={job.pic} className="h-10 sm:h-20 rounded-full"/>
-						<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
-							<p>{job.year}</p>
-							<p className="font-bold text-base sm:text-xl">{job.title}</p>
-							<p>{job.company}</p>
-						</div>
-					</section>
-					
-				);
-			})}
-		</div>
-	);
-  }
+function EmploymentHistory() {
+return(
+	<div className="text-base sm:text-lg text-slate-300">
+		{WorkHistory.map(job => {
+			return(
+				<section className="flex">
+					<img src={job.pic} className="h-10 sm:h-20 rounded-full"/>
+					<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
+						<p>{job.year}</p>
+						<p className="font-bold text-base sm:text-xl">{job.title}</p>
+						<p>{job.company}</p>
+					</div>
+				</section>
+				
+			);
+		})}
+	</div>
+);
+}
 
-  function Education() {
-	return(
-		<div className="text-base sm:text-lg text-slate-300">
-			{EducationHistory.map(school => {
-				return(
-					<section className="flex">
-						<img src={school.pic} className="h-10 sm:h-20 rounded-full"/>
-						<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
-							<p>{school.year}</p>
-							<p className="font-bold text-base sm:text-xl">{school.cert}</p>
-							<p>{school.school}</p>
-							<p className="font-thin italic">Key courses: {school["key-courses-mech"]}</p>
-						</div>
-					</section>
-				);
-			})}
-		</div>
-	);
-  }
+function Education() {
+return(
+	<div className="text-base sm:text-lg text-slate-300">
+		{EducationHistory.map(school => {
+			return(
+				<section className="flex">
+					<img src={school.pic} className="h-10 sm:h-20 rounded-full"/>
+					<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
+						<p>{school.year}</p>
+						<p className="font-bold text-base sm:text-xl">{school.cert}</p>
+						<p>{school.school}</p>
+						<p className="font-thin italic">Key courses: {school["key-courses-mech"]}</p>
+					</div>
+				</section>
+			);
+		})}
+	</div>
+);
+}
   
-  function MainPage() {
-	return(
-	  <div className='sm:block sm:object-center'>
+function MainPage() {
+return(
+	<div className='sm:block sm:object-center'>
 
-		{/* The About Me section */}
-		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>About Me</h3>
-		<hr></hr>
-		<br/>
-		<About/>
-		
-		{/* Employment History section */}
-		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>My Experience</h3>
-		<hr></hr>
-		<br/>
-		<EmploymentHistory/>
+	{/* The About Me section */}
+	<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>About Me</h3>
+	<hr></hr>
+	<br/>
+	<About/>
+	
+	{/* Employment History section */}
+	<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>My Experience</h3>
+	<hr></hr>
+	<br/>
+	<EmploymentHistory/>
 
-		{/* Education section */}
-		<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>Education</h3>
-		<hr></hr>
-		<br/>
-		<Education/>
+	{/* Education section */}
+	<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>Education</h3>
+	<hr></hr>
+	<br/>
+	<Education/>
 
-	  </div>
-	);
-  }
+	</div>
+);
+}
 
 const Mechanical = () => {
 	useEffect(() => window.scrollTo(0, 0), []);

@@ -70,24 +70,28 @@ function Description() {
 		<div className="pt-2 sm:pt-5 text-white">
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
-				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> , I worked closely with the Project Manager to coordinate the MEP design for the entire building.
-				This included designing systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling.</text>
+				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> 
+				, I collaborated closely with the Project Manager to oversee the MEP design of the entire building. This involved designing various 
+				systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling</text>.
 				<br/>
-				During the tender phase of the project, I actively participated in coordinating with the structural engineer, architect, and in-house MEP engineer to ensure seamless integration of MEP systems with other parties.
+				Actively participated in coordinating with the structural engineer, architect, and in-house MEP engineer during the tender phase of 
+				the project to ensure seamless integration of MEP systems.
 				<br/>
-				I successfully coordinated and built a <text className="font-semibold text-lime-500">Revit model</text> using an external drafting company.
+				I successfully coordinated and built a <text className="font-semibold text-lime-500">Revit model</text> using an external drafting 
+				company.
 				<br/>
-				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
+				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering 
+				processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
-				This residential building is a 28 story high building with <text className="font-semibold text-lime-500">3 floors of shopping mall (w/ F&B), a underground parking lot, a floor of sky garden, a floor of clubhouse and 25 floors of residential housing</text>.
-				The residential portion of the building was designed to construct using&nbsp;
+				This 28-story high-rise residential building includes <text className="font-semibold text-lime-500">a shopping mall (w/ F&B), 
+				underground parking, sky garden, clubhouse, and 25 residential floors</text>. The project uses the &nbsp;
 				<a href="https://www.snclavalin.com/en/beyond-engineering/key-to-success-for-modular-integrated-construction#:~:text=Modular%20integrated%20construction%20uses%20prefabricated,installed%20in%20their%20final%20positions." className="italic text-blue-500 font-semibold">
 					Modular Integrated Construction method (MiC)
 				</a>.
-				MiC method bring challenges to MEP department, the structure of each apartment will be partly steel, partly concrete. 
-				MEP service usually running inside concrete will need a different approach when designing.
+				which presents challenges for the MEP department due to the structure of each apartment being partly steel and partly concrete, 
+				requiring a different approach to designing MEP services.
 			</p>
 			
 		</div>

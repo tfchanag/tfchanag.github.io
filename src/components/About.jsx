@@ -3,20 +3,19 @@ import { Outlet, Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
 import HKUST from "../images/About/HKUST.jpg";
-import HKUSTMe from "../images/About/HKUST-Me.jpg";
 import mechanical from "../images/About/mechanical.jpeg";
 import mecha from "../images/About/mecha.jpg";
 import amsterdam from "../images/About/Amsterdam.JPG";
 import TTC from "../images/About/TTC.jpg";
 import VEX from "../images/About/vex.png";
 import FYP from "../images/About/FYP.jpg";
-import present from "../images/About/Presentation.jpg";
+import FYP2 from "../images/About/FYP2.jpg";
 import Chateau from "../images/About/Chateau.webp";
 import SFR from "../images/About/SFR.jpg";
 import AUR from "../images/About/AUR.jpg";
 import AUR2 from "../images/About/AUR2.jpg";
 import now from "../images/About/Now.jpg";
-import Parkroyal from "../images/About/Parkroyal.jpg";
+import sheridanCert from "../images/About/SheridanCert.jpg";
 import Footer from "./Footer";
 
 function Nav() {
@@ -83,9 +82,13 @@ function AboutMe() {
 						Through endeavour and will power, I was accepted in one of the most prestige university in Hong Kong - <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
 						&nbsp;and enrolled in Bachleor in Engineering Program.
 					</p>
-					<div className="flex-shrink gap-1 sm:gap-2 sm:w-2/3">
-						<img src={HKUST} className="w-1/2"/>
-						<img src={HKUSTMe} className="w-1/2"/>
+					<div className="sm:w-1/3">
+						<figure className="inline-block max-w-sm">
+							<img src={HKUST} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								The sun dial in front of campus
+							</figcaption>
+						</figure>
 					</div>
 					
 					
@@ -98,8 +101,14 @@ function AboutMe() {
 						Got a opputunities to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>.
 						&nbsp;Learned a lot about contract law, technology's patent related procedures and legal terms. Have been Working there for 2 years, gained lots of contract knowledge there.
 					</p>
-					<img src={TTC} className="sm:w-1/3 w-full"/>
-					
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={TTC} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								The front door of TTC
+							</figcaption>
+						</figure>
+					</div>
 				</li>
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -110,9 +119,16 @@ function AboutMe() {
 						improving citizen's wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, 
 						so at the end I chose mechanical engineering.
 					</p>
-					<div className="flex gap-1 sm:gap-2 sm:w-1/3">
-						<img src={mechanical} className="w-1/2"/>
-						<img src={mecha} className="w-1/2"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<div className="flex gap-1 sm:gap-2">
+								<img src={mechanical} className="w-1/2 rounded-lg"/>
+								<img src={mecha} className="w-1/2 rounded-lg"/>
+							</div>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Mechanical Engineer and My Mecha Robots Collection
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -125,8 +141,13 @@ function AboutMe() {
 						were industrial piping theory. Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and 
 						the heritage buildings and modernize it by adding MEP system to it.
 					</p>
-					<div className="">
-						<img src={amsterdam} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={amsterdam} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Rijksmuseum, taken when I am in Amsterdam
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -138,8 +159,13 @@ function AboutMe() {
 						I worked with. Taught kids built VEX robot for VEX IQ competition, DIY anything they have in mind and write simple programming. It was challenging since children 
 						have a lot of ideas, I fulfilled them using limited tools and material. But, it's fun to work with children on projects.
 					</p>
-					<div className="">
-						<img src={VEX} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={VEX} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								A VEX IQ robot, similar to what the kids made
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -151,8 +177,13 @@ function AboutMe() {
 						of the robot have to be light, the material had to be light and at the same time can withhold the force from motor. Flapping wing 
 						motion was difficult to replicate in a tiny robot.
 					</p>
-					<div className="">
-						<img src={FYP} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={FYP} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								The aerial view of the final product
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -167,8 +198,13 @@ function AboutMe() {
 						Checkout the final product <Link to="/fyp" className="italic text-blue-500 font-semibold underline">HERE</Link>
 
 					</p>
-					<div className="">
-						<img src={present} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={FYP2} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								The side view of the final product
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -176,13 +212,20 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">April 2019</time>
 					<h3 class="text-lg font-semibold text-white">Deciding My Future</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						My university journey is near the end, and my future career is yet to decide. Then I stumble appon this TV series, <a href="https://en.wikipedia.org/wiki/Escape_to_the_Chateau" target="_blank" className="italic text-blue-500 font-semibold underline">Escape to the Chateau</a>.
-						Watching this married couple bought an old Chateau in France with cheap price and transferring it into a modernized Chateau with elevator, electricity, gas and lighting.
-						I was fasinated how they design and construct all of those all by themselves. I was inspired that I wanted to do something 
-						like them, design and construct MEP system for buildings, make living space enjoyable and comfortable.
+						My university journey is near the end, and my future career is yet to decide. Then I stumble appon this TV series, <a 
+						href="https://en.wikipedia.org/wiki/Escape_to_the_Chateau" target="_blank" className="italic text-blue-500 font-semibold 
+						underline">Escape to the Chateau</a>. Watching this married couple bought an old Chateau in France with cheap price and 
+						transferring it into a modernized Chateau with elevator, electricity, gas and lighting. I was fasinated how they design 
+						and construct all of those all by themselves. I was inspired that I wanted to do something like them, design and construct 
+						MEP system for buildings, make living space enjoyable and comfortable.
 					</p>
-					<div className="">
-						<img src={Chateau} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={Chateau} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Picture from Escape to the Chateau
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -193,8 +236,13 @@ function AboutMe() {
 						After a long time of job search and rounds of interviews, I landed my job as Assistant Building Service Engineer in <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a>. 
 						My first ever project was to coordinate and inspect the MEP construction on-site for residential high-rise buildings.
 					</p>
-					<div className="">
-						<img src={SFR} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={SFR} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Koko Hills in construction
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -208,8 +256,13 @@ function AboutMe() {
 						entertainment and commercial buildings. I have designed solar hot water, greay water and rainwater recycling system, which was one of my objective, 
 						improving my city using green technologies. I was fortunate to work with these talented coworkers and innovative projects.
 					</p>
-					<div className="">
-						<img src={AUR} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={AUR} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Breakfast before a Saturday OT
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -220,20 +273,30 @@ function AboutMe() {
 						With everything happened in Hong Kong socially and politically. I decided to leave Hong Kong and start over again in Canada. 
 						Unfortunatly I have to leave Aurecon, it was great year working with lots of excellent seniors and managers.
 					</p>
-					<div className="">
-						<img src={AUR2} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={AUR2} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								The front door of Aurecon Hong Kong Office
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023</time>
-					<h3 class="text-lg font-semibold text-white">Complete Study in Canada and Get PR</h3>
+					<h3 class="text-lg font-semibold text-white">Completed Study in Canada and Get PR</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 						After a year and a half, I have finished a diploma in <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>. 
 						Fulfilling my requirment to get a permenant resident status in Canada.
 					</p>
-					<div className="">
-						<img src={AUR2} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={sheridanCert} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								My diploma certificate
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 				<li class="mb-10 ml-4">
@@ -245,8 +308,13 @@ function AboutMe() {
 						experiences I gained from my journey, I am striving for opputunities in Toronto's MEP industry. Hoping I could contribute to 
 						Canada's carbon zero target and improving the wellbing of the Canadians through designing outstanding MEP systems.
 					</p>
-					<div className="">
-						<img src={now} className="sm:w-1/3 w-full"/>
+					<div className="sm:w-1/3 w-full">
+						<figure className="inline-block max-w-sm">
+							<img src={now} className="rounded-lg"/>
+							<figcaption className="text-sm text-neutral-400 mt-1">
+								Maple trees in Conservation Park during Fall season
+							</figcaption>
+						</figure>
 					</div>
 				</li>
 			</ol>

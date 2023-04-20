@@ -71,9 +71,10 @@ function Description() {
 		<div className="pt-2 sm:pt-5 text-white">
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
-				I was the project leader of this Final Year Project. I have actively <text className="font-semibold text-lime-500">produced a project schedule, research on flapping wing 
-				aerodynamic theory and wrote design specification</text>. Showcased my ability to self learn an advance and new topic. The final grade of 
-				this project was <text className="font-semibold text-lime-500">"A"</text>
+				As the project leader of my Final Year Project, I successfully <text className="font-semibold text-lime-500">produced a project 
+				schedule, research on flapping wing aerodynamic theory and wrote design specification</text>. Through this project, I demonstrated 
+				my ability to independently learn and apply new and advanced concepts. I am proud to have achieved an &nbsp;
+				<text className="font-semibold text-lime-500">"A"</text> grade for this project.
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">

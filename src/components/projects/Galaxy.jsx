@@ -76,20 +76,19 @@ function Description() {
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
 				As a <text className="font-semibold text-lime-500">plumbing and drainage (PL & DR) assistant engineer</text>,
-				I worked closely with the Project Engineer to design the PL & DR systems for building complexes, 
-				including hotels, casinos, shopping plazas, and open landscape areas. 
-				I utilized <text className="font-semibold text-lime-500">2D AutoCAD</text> to create detailed designs and plans for the PL & DR systems, 
-				ensuring compliance with relevant codes and standards. I worked under the guidance of the Project Engineer, 
-				gaining valuable experience in designing complex PL & DR systems for large-scale projects.
+				Designed plumbing and drainage systems for various building complexes such as hotels, casinos, shopping plazas, 
+				and open landscape areas using <text className="font-semibold text-lime-500">2D AutoCAD</text> ensuring compliance 
+				with relevant codes and standards, while working closely with the Project Engineer. Gained valuable experience in 
+				designing complex PL & DR systems for large-scale projects.
 				<br/>
-				<text className="font-semibold text-lime-500">Coordinated with a civil drainage engineer</text> when designing drainage system in open landscape area 
-				and ensure that all work complied with relevant codes of practice for both parties.
+				<text className="font-semibold text-lime-500">Coordinated with a civil drainage engineer</text> when designing drainage 
+				system in open landscape area and ensure that all work complied with relevant codes of practice for both parties.
 				
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
-				This entertainment hotel complex composted of <text className="font-semibold text-lime-500">hotel towers, a casino plaza, shopping plaza with F&B, parking lot and a open landscape area</text>.
-				One of the largest entertainment project in Macau.
+				This entertainment hotel complex composted of <text className="font-semibold text-lime-500">hotel towers, a casino plaza, 
+				shopping plaza with F&B, parking lot and a open landscape area</text>. One of the largest entertainment project in Macau.
 			</p>
 			
 		</div>

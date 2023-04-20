@@ -56,57 +56,66 @@ function Nav() {
 	);
 };
 
+function ShortDesc() {
+	return(
+		<div>
+			<h1 className='text-2xl font-bold text-white pt-20 sm:pt-24 sm:text-6xl'>Who is Richie Chan?</h1>
+			<div className="text-slate-300 pt-5 gap-11 sm:text-lg">
+				<div>
+					<ul className="list-disc">
+						<li className="pt-2">
+							🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
+							&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mech.</text>
+						</li>
+						<li className="pt-2">
+							🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a> 
+							&nbsp;as <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, built Koko Hills
+						</li>
+						<li className="pt-2">
+							🏢 '20: Worked at <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> 
+							&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed MEP systems for 3+ projects
+						</li>
+						<li className="pt-2">
+							🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
+						</li>
+						<li className="pt-2">
+							👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Uniqlo Canada</a> to support my living
+						</li>
+						<li className="pt-2">
+							🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>
+							&nbsp;with <text className="font-semibold text-lime-500">Dip. in Computer Programming</text>
+						</li>
+						<li className="pt-2">
+							🍁 '23: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada
+						</li>
+						<li className="pt-2 font-semibold text-xl sm:text-2xl">
+							👷🏻‍♂️ '23: Strive for an opputunity to start my journey becoming <text className="text-lime-500">PEng.</text>
+						</li>
+					</ul>
+				</div>
+				<br/>
+				{/* <div className="grid sm:grid-cols-4 grid-cols-2">
+					<p className="pt-0 col-span-1">Know more about me</p>
+					<div className="col-span-1 sm:col-span-3"><Link to="/about"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">About</button></Link></div>
+					<p className="pt-2 col-span-1">Know more my experiences</p>
+					<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Experience</button></Link></div>
+					<p className="pt-2 col-span-1">Know more my projects</p>
+					<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical_projects"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Projects</button></Link></div>
+				</div> */}
+			</div>
+			<br/>
+			<Outlet/>
+		</div>
+		
+	);
+}
+
 const Home = () => {
 	useEffect(() => window.scrollTo(0, 0), []);
 	return(
 	<div>
 		<Nav/>
-		<h1 className='text-2xl font-bold text-white pt-20 sm:pt-24 sm:text-6xl'>Who is Richie Chan?</h1>
-		<div className="text-slate-300 pt-5 gap-11 sm:text-lg">
-			<div>
-				<ul className="list-disc">
-					<li className="pt-2">
-						🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
-						&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mech.</text>
-					</li>
-					<li className="pt-2">
-						🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a> 
-						&nbsp;as <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, built Koko Hills
-					</li>
-					<li className="pt-2">
-						🏢 '20: Worked at <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> 
-						&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed MEP systems for 3+ projects
-					</li>
-					<li className="pt-2">
-						🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
-					</li>
-					<li className="pt-2">
-						👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Uniqlo Canada</a> to support my living
-					</li>
-					<li className="pt-2">
-						🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>
-						&nbsp;with <text className="font-semibold text-lime-500">Dip. in Computer Programming</text>
-					</li>
-					<li className="pt-2">
-						🍁 '23: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada
-					</li>
-					<li className="pt-2 font-semibold text-xl sm:text-2xl">
-						👷🏻‍♂️ '23: Strive for an opputunity to start my journey becoming <text className="text-lime-500">PEng.</text>
-					</li>
-				</ul>
-			</div>
-			<br/>
-			{/* <div className="grid sm:grid-cols-4 grid-cols-2">
-				<p className="pt-0 col-span-1">Know more about me</p>
-				<div className="col-span-1 sm:col-span-3"><Link to="/about"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">About</button></Link></div>
-				<p className="pt-2 col-span-1">Know more my experiences</p>
-				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Experience</button></Link></div>
-				<p className="pt-2 col-span-1">Know more my projects</p>
-				<div className="col-span-1 sm:col-span-3 pt-2"><Link to="/mechanical_projects"><button className="w-32 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Projects</button></Link></div>
-			</div> */}
-		</div>
-		<br/>
-		<Outlet/>
+		<ShortDesc/>
 		<Footer/>
 	</div>
 	);

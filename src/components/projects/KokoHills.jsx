@@ -71,9 +71,10 @@ function Description() {
 			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
 			<p className="pt-2 text-sm sm:text-base">
 				As an <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, 
-				I actively inspect and test mechanical components(including HVAC, plumbing & drainage, electrical and fire protection system) 
-				and make sure the layout were constructed as designed. I have maintained accurate and detailed documentation of installation progress, 
-				inspection results, and testing records, ensuring compliance with all regulations and requirements.
+				responsible for inspecting and testing mechanical components, I ensured that the layout of HVAC, plumbing & drainage, 
+				electrical and fire protection systems were constructed as designed. My documentation skills were utilized in maintaining 
+				accurate records of installation progress, inspection results and testing records. I ensured compliance with all relevant 
+				regulations and requirements.
 			</p>
 			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
 			<p className="pt-2 text-sm sm:text-base">
