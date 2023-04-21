@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1681b57.css",
-    "main.js": "/static/js/main.a009b4a0.js",
+    "main.js": "/static/js/main.c27f0716.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -29,16 +29,16 @@
     "static/media/mechanical.jpeg": "/static/media/mechanical.15724c26a6105ab7c795.jpeg",
     "static/media/TKSt.jpg": "/static/media/TKSt.0834ed653ffb860b1ff6.jpg",
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
-    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.f5641787a4bd2b3767c6.pdf",
+    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.70602d103d9ab8d5118f.pdf",
     "static/media/sheridan.jpg": "/static/media/sheridan.6d21909dc052cb823606.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.b1681b57.css.map": "/static/css/main.b1681b57.css.map",
-    "main.a009b4a0.js.map": "/static/js/main.a009b4a0.js.map",
+    "main.c27f0716.js.map": "/static/js/main.c27f0716.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1681b57.css",
-    "static/js/main.a009b4a0.js"
+    "static/js/main.c27f0716.js"
   ]
 }
