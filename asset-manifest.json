@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1681b57.css",
-    "main.js": "/static/js/main.c94a7e7d.js",
+    "main.css": "/static/css/main.82ea580e.css",
+    "main.js": "/static/js/main.1f8f6a19.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -31,15 +31,14 @@
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
     "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.314934733ad459f0c1fb.pdf",
     "static/media/sheridan.jpg": "/static/media/sheridan.6d21909dc052cb823606.jpg",
-    "static/media/Autodesk.svg": "/static/media/Autodesk.75a451f5fa7b54ac110bb9b2442b370a.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.b1681b57.css.map": "/static/css/main.b1681b57.css.map",
-    "main.c94a7e7d.js.map": "/static/js/main.c94a7e7d.js.map",
+    "main.82ea580e.css.map": "/static/css/main.82ea580e.css.map",
+    "main.1f8f6a19.js.map": "/static/js/main.1f8f6a19.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1681b57.css",
-    "static/js/main.c94a7e7d.js"
+    "static/css/main.82ea580e.css",
+    "static/js/main.1f8f6a19.js"
   ]
 }
