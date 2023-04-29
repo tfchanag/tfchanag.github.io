@@ -1,13 +1,11 @@
 export const Mechanical_Skills = [
 	"Building Sevice Mechanical System",
-	"AutoCAD",
-	"Revit MEP",
-	"Design and Manufacturing",
+	"AutoCAD (Autodesk Certificate)",
+	"Revit MEP (Autodesk Certificate)",
+	"Electrical Technology",
 	"SolidWorks",
 	"Control Principles", 
-	"Mechatronic",
-	"Coordination",
-	"Electrical Technology"
+	"Mechatronic"
 ]
 
 export default Mechanical_Skills;

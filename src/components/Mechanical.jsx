@@ -152,9 +152,9 @@ return(
 				<section className="flex">
 					<img src={cert.pic} className="h-10 sm:h-20 rounded-full"/>
 					<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
+						<p>{cert.issued}</p>
 						<p className="font-bold text-base sm:text-xl">{cert.name}</p>
 						<p>{cert.issuer}</p>
-						<p>{cert.issued}</p>
 					</div>
 				</section>
 			);
