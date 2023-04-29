@@ -2,6 +2,7 @@ import { React, useEffect } from "react";
 import WorkHistory from '../data/work-history.js';
 import EducationHistory from "../data/education-history.js";
 import Mechanical_Skills from "../data/mechanical-skills.js";
+import CertificateHistory from "../data/certificate.js";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
 
@@ -12,10 +13,12 @@ function Nav() {
 	return(
 		<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
 			<div class="container flex flex-wrap items-center justify-between mx-auto">
-				<div class="flex items-center">
-					<img src={Icon} class="h-6 mr-3 sm:h-9" alt="Flowbite Logo"/>
-					<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Richie Chan</span>
-				</div>
+				<Link to="/">
+					<div class="flex items-center">
+						<img src={Icon} class="h-6 mr-3 sm:h-9" alt="Flowbite Logo"/>
+						<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Richie Chan</span>
+					</div>
+				</Link>
 
 				<div class="flex md:order-2">
 					<a href={resume} download>
@@ -77,17 +80,17 @@ function Introduction() {
 function About() {
 return(
 	<div>
-	<p className='text-slate-300 text-base sm:text-lg'>
-	As an experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
-	I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
-	for high-rise residential, entertainment and hotel projects. I am skilled in project coordination, Revit BIM MEP, 
-	AutoCAD 2D drafting, on-site coordination and inspection. I am eager to further develop my skills and knowledge 
-	and transition into a professional engineering role. I am excited to contribute my expertise to new and challenging projects.
-	</p>
-	<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
-	<hr></hr>
-	<br/>
-	<EngineeringSkills/>
+		<p className='text-slate-300 text-base sm:text-lg'>
+			An experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
+			I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
+			for high-rise residential and entertainment projects. I am skilled in  plumbing and drainage design, Revit BIM MEP and 
+			AutoCAD 2D drafting.I am eager to further develop my skills and knowledge and transition into a professional engineering role. 
+			I am eager to further develop my skills and knowledge and transition into a professional engineering role.
+		</p>
+		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
+		<hr></hr>
+		<br/>
+		<EngineeringSkills/>
 	</div>
 );
 }
@@ -140,6 +143,25 @@ return(
 	</div>
 );
 }
+
+function Certificate() {
+return(
+	<div className="text-base sm:text-lg text-slate-300">
+		{CertificateHistory.map(cert => {
+			return(
+				<section className="flex">
+					<img src={cert.pic} className="h-10 sm:h-20 rounded-full"/>
+					<div className="pl-4 pb-3 sm:pl-8 sm:pb-5">
+						<p className="font-bold text-base sm:text-xl">{cert.name}</p>
+						<p>{cert.issuer}</p>
+						<p>{cert.issued}</p>
+					</div>
+				</section>
+			);
+		})}
+	</div>
+);
+}
   
 function MainPage() {
 return(
@@ -162,6 +184,12 @@ return(
 	<hr></hr>
 	<br/>
 	<Education/>
+
+	{/* Certificate section */}
+	<h3 className='text-xl sm:text-3xl text-slate-100 pt-2 sm:pt-5'>Certificate</h3>
+	<hr></hr>
+	<br/>
+	<Certificate/>
 
 	</div>
 );

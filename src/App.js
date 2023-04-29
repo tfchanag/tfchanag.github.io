@@ -10,7 +10,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Mechanical from './components/Mechanical';
 import Mechanical_Projects from './components/MProjects';
-import Software from './components/Software';
 import TKST from './components/projects/TKST';
 import Galaxy from './components/projects/Galaxy';
 import WR128 from './components/projects/WR128';
@@ -28,7 +27,6 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/mechanical' element={<Mechanical/>}/>
-          <Route exact path='/software' element={<Software/>}/>
           <Route exact path='/about' element={<About/>}/>
           <Route exact path='/mechanical_projects' element={<Mechanical_Projects/>}/>
           <Route exact path='/tkst' element={<TKST/>}/>
