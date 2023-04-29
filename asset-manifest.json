@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1681b57.css",
-    "main.js": "/static/js/main.c27f0716.js",
+    "main.js": "/static/js/main.024389a5.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -16,9 +16,9 @@
     "static/media/Chateau.webp": "/static/media/Chateau.7934bb86a4311b97bd12.webp",
     "static/media/sitePic.jpg": "/static/media/sitePic.8e82c3b15bceb4a191ec.jpg",
     "static/media/autocad.jpg": "/static/media/autocad.a35286f9119b1650fbdc.jpg",
-    "static/media/PL.jpg": "/static/media/PL.5a5ba0524068029ce392.jpg",
     "static/media/vex.png": "/static/media/vex.c62fc171f297dfac3910.png",
     "static/media/128.jpg": "/static/media/128.8e2e4db481a36f2db1db.jpg",
+    "static/media/PL.jpg": "/static/media/PL.78d43b727aad282b0024.jpg",
     "static/media/TKST-BIM.jpg": "/static/media/TKST-BIM.76b4dbb1a5bd01adeefa.jpg",
     "static/media/SheridanCert.jpg": "/static/media/SheridanCert.0b65f95fd93843c83811.jpg",
     "static/media/SCHE.jpg": "/static/media/SCHE.ad6578dff5604af8993b.jpg",
@@ -29,16 +29,16 @@
     "static/media/mechanical.jpeg": "/static/media/mechanical.15724c26a6105ab7c795.jpeg",
     "static/media/TKSt.jpg": "/static/media/TKSt.0834ed653ffb860b1ff6.jpg",
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
-    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.70602d103d9ab8d5118f.pdf",
+    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.bed4cad8b66311ea00a6.pdf",
     "static/media/sheridan.jpg": "/static/media/sheridan.6d21909dc052cb823606.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.b1681b57.css.map": "/static/css/main.b1681b57.css.map",
-    "main.c27f0716.js.map": "/static/js/main.c27f0716.js.map",
+    "main.024389a5.js.map": "/static/js/main.024389a5.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1681b57.css",
-    "static/js/main.c27f0716.js"
+    "static/js/main.024389a5.js"
   ]
 }
