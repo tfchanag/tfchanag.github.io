@@ -74,63 +74,63 @@ function Projects() {
 			</Link>
 			<p className="pt-2 sm:pt-5 text-2xl font-bold text-white sm:text-6xl pb-5">Projects I Worked On</p>
 			<Link to="/tkst">
-				<section className="sm:grid sm:grid-cols-5 sm:hover:scale-110 transition duration-300 relative">
+				<section className="sm:grid sm:grid-cols-5 relative">
 					<div className="sm:col-span-2 "><img src={TKST} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
+					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Tonkin Street Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed mechanical system and as a project coordinator of this high-rise residential building, coordinated with in-house 
-							engineers, clients, architect and responsible for government submissions
+							engineers, clients, architect and responsible for government submissions.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
 				</section>
 			</Link>
 			<Link to="/galaxy">
-				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300 relative">
+				<section className="sm:grid sm:grid-cols-5 pt-5 relative">
 					<div className="sm:col-span-2"><img src={Galaxy} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
-						<p className="pt-0 sm:pt-2">Galaxy Hotel Phase 3</p>
+					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
+						<p className="pt-0 sm:pt-2">Macau Galaxy Hotel Phase 3</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed plumbing & drainage system for this entertainment complex, coordinated with onsite engineer, clients and 
-							civil enginers
+							Designed plumbing & drainage system for the entertainment complex, with casino, hotel, shopping mall, restaurant and 
+							open landscape sections. Coordinated with onsite engineer, clients and civil enginers.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
 				</section>
 			</Link>
 			<Link to="/wr128">
-				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300 relative">
+				<section className="sm:grid sm:grid-cols-5 pt-5 relative">
 					<div className="sm:col-span-2"><img src={W128} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
+					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Waterloo Road 128 Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential high-rise building, tackled government related utilities 
-							construction and submissions
+							construction and submissions.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
 				</section>
 			</Link>
 			<Link to="/kokohills">
-				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300 relative">
+				<section className="sm:grid sm:grid-cols-5 pt-5 relative">
 					<div className="sm:col-span-2"><img src={KokoHills} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
+					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Koko Hills Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							On-site engineer inspection and testing of mechanical system, on-site design coordination
+							On-site engineer inspection and testing of mechanical system, on-site design coordination.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
 				</section>
 			</Link>
 			<Link to="/fyp">
-				<section className="sm:grid sm:grid-cols-5 pt-5 sm:hover:scale-110 transition duration-300 relative">
+				<section className="sm:grid sm:grid-cols-5 pt-5 relative">
 					<div className="sm:col-span-2"><img src={FYP2} className="w-72 mx-auto rounded-3xl"/></div>
-					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 rounded-lg">
+					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Design and Development of an Ultralight Insect Like Flying Robot</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed a flapping wing robot that minmic insect flying pattern
+							Designed a flapping wing robot that minmic insect flying pattern.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>

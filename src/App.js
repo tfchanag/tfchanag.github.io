@@ -1,8 +1,8 @@
 import './App.css';
 import {
-  BrowserRouter,
   Routes,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import React, { useEffect } from "react";
 
@@ -23,19 +23,19 @@ function App() {
 
   return (
     <div className='sm:container sm:mx-auto sm:px-20 px-6 pb-10'>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/mechanical' element={<Mechanical/>}/>
-          <Route exact path='/about' element={<About/>}/>
-          <Route exact path='/mechanical_projects' element={<Mechanical_Projects/>}/>
-          <Route exact path='/tkst' element={<TKST/>}/>
-          <Route exact path='/galaxy' element={<Galaxy/>}/>
-          <Route exact path='/wr128' element={<WR128/>}/>
-          <Route exact path='/kokohills' element={<KokoHills/>}/>
-          <Route exact path='/fyp' element={<FYP/>}/>
+          <Route path='/mechanical' element={<Mechanical/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/mechanical_projects' element={<Mechanical_Projects/>}/>
+          <Route path='/tkst' element={<TKST/>}/>
+          <Route path='/galaxy' element={<Galaxy/>}/>
+          <Route path='/wr128' element={<WR128/>}/>
+          <Route path='/kokohills' element={<KokoHills/>}/>
+          <Route path='/fyp' element={<FYP/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
     
   );  

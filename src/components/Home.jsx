@@ -81,16 +81,6 @@ function ShortDesc() {
 						<li className="pt-2">
 							🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
 						</li>
-						<li className="pt-2">
-							👖 '21: Working at <a href="https://www.uniqlo.com/ca/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Uniqlo Canada</a> to support my living
-						</li>
-						<li className="pt-2">
-							🧑🏼‍🎓 '23: Graduated from <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>
-							&nbsp;with <text className="font-semibold text-lime-500">Dip. in Computer Programming</text>
-						</li>
-						<li className="pt-2">
-							🍁 '23: Applied to <text className="font-semibold text-lime-500">PR</text> status in Canada
-						</li>
 						<li className="pt-2 font-semibold text-xl sm:text-2xl">
 							👷🏻‍♂️ '23: Strive for an opputunity to start my journey becoming <text className="text-lime-500">PEng.</text>
 						</li>

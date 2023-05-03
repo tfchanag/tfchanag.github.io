@@ -15,7 +15,7 @@ import SFR from "../images/About/SFR.jpg";
 import AUR from "../images/About/AUR.jpg";
 import AUR2 from "../images/About/AUR2.jpg";
 import now from "../images/About/Now.jpg";
-import sheridanCert from "../images/About/SheridanCert.jpg";
+import mechanOn from "../images/About/mechanicalOntario.png";
 import Footer from "./Footer";
 
 function Nav() {
@@ -141,7 +141,7 @@ function AboutMe() {
 						I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Eindhoven University of Technology</a> 
 						&nbsp;as an exchange student for 6 months, I was amazed how industrial focus their mechanical engineering program are. Even fluid dynamic they taught 
 						were industrial piping theory. Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and 
-						the heritage buildings and modernize it by adding MEP system to it.
+						the heritage buildings and modernized it by adding MEP system to it.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -287,16 +287,15 @@ function AboutMe() {
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023</time>
-					<h3 class="text-lg font-semibold text-white">Completed Study in Canada and Get PR</h3>
+					<h3 class="text-lg font-semibold text-white">Settled Down in Toronto</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						After a year and a half, I have finished a diploma in <a href="https://www.sheridancollege.ca/" target="_blank" className="italic text-blue-500 font-semibold underline">Sheridan College</a>. 
-						Fulfilling my requirment to get a permenant resident status in Canada.
+						After a year and a half settling in Canada as a recent immigrant, and COVID finally gone. I finally settled down in Toronto.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
-							<img src={sheridanCert} className="rounded-lg"/>
+							<img src={now} className="rounded-lg"/>
 							<figcaption className="text-sm text-neutral-400 mt-1">
-								My diploma certificate
+								Maple trees in Conservation Park during Fall season
 							</figcaption>
 						</figure>
 					</div>
@@ -306,15 +305,15 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2023</time>
 					<h3 class="text-lg font-semibold text-white">Job Searching in Toronto's MEP Industry</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						Now, I can shift my focus on starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk, 
+						Now, I can switch my focus to starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk, 
 						experiences I gained from my journey, I am striving for opputunities in Toronto's MEP industry. Hoping I could contribute to 
 						Canada's carbon zero target and improving the wellbing of the Canadians through designing outstanding MEP systems.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
-							<img src={now} className="rounded-lg"/>
+							<img src={mechanOn} className="rounded-lg"/>
 							<figcaption className="text-sm text-neutral-400 mt-1">
-								Maple trees in Conservation Park during Fall season
+								Mechanical Engineer Working in Ontario
 							</figcaption>
 						</figure>
 					</div>

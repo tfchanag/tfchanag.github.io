@@ -72,7 +72,7 @@ function Introduction() {
 			<h1 className="text-2xl sm:text-6xl font-bold">Hi, I'm {preferredName}</h1>
 			<h3 className='text-1xl sm:text-2xl font-semibold pt-2'>{name}</h3>
 			<h4 className='text-xl pt-4'>{title}</h4>
-			<p className="pt-5 text-2xl font-bold text-lime-500 italic"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
+			<p className="pt-5 text-2xl font-bold text-green-600 italic hover:text-lime-500"><Link to="/mechanical_projects">→→ Checkout my Projects!! ←←</Link></p>
 	  	</div>
 	);
 }
@@ -81,11 +81,11 @@ function About() {
 return(
 	<div>
 		<p className='text-slate-300 text-base sm:text-lg'>
-			An experienced Mechanical Designer with 2 years of experience in MEP design for buildings, 
-			I have a strong background in designing mechanical systems (HVAC, Plumbing & Drainage, Fire Protection) 
-			for high-rise residential and entertainment projects. I am skilled in  plumbing and drainage design, Revit BIM MEP and 
-			AutoCAD 2D drafting.I am eager to further develop my skills and knowledge and transition into a professional engineering role. 
-			I am eager to further develop my skills and knowledge and transition into a professional engineering role.
+			I am passionat about contributing my knowledge to improve the well-being of residents by designing excellent mechanical systems, 
+			improving comfort and saving money by designing sustainable and cost-efficient systems, preserving and revitalising historical 
+			buildings by adding modernized MEP systems to heritage buildings in retro-commissioning projects.
+			My goal is to further develop my skills and knowledge and transition into a professional engineering role. 
+			
 		</p>
 		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
 		<hr></hr>
