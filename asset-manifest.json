@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1dad251.css",
-    "main.js": "/static/js/main.e6caa489.js",
+    "main.css": "/static/css/main.66bfc46a.css",
+    "main.js": "/static/js/main.10e0be89.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -18,27 +18,34 @@
     "static/media/autocad.jpg": "/static/media/autocad.a35286f9119b1650fbdc.jpg",
     "static/media/vex.png": "/static/media/vex.c62fc171f297dfac3910.png",
     "static/media/128.jpg": "/static/media/128.8e2e4db481a36f2db1db.jpg",
+    "static/media/drainage2.jpg": "/static/media/drainage2.0d82bff9ca7b98682caf.jpg",
     "static/media/PL.jpg": "/static/media/PL.78d43b727aad282b0024.jpg",
     "static/media/TKST-BIM.jpg": "/static/media/TKST-BIM.76b4dbb1a5bd01adeefa.jpg",
     "static/media/SCHE.jpg": "/static/media/SCHE.ad6578dff5604af8993b.jpg",
-    "static/media/GREY.jpg": "/static/media/GREY.2cefad38ac19f00cc5f6.jpg",
+    "static/media/liftForceEqua.jpg": "/static/media/liftForceEqua.8cf184e63964f8d0efc9.jpg",
+    "static/media/solarhot2.jpg": "/static/media/solarhot2.f9d9b180c68878d2a18f.jpg",
+    "static/media/solarhot1.jpg": "/static/media/solarhot1.9cfc7ea25c0331ef5504.jpg",
     "static/media/TTC.jpg": "/static/media/TTC.80a90b5c985d46135dea.jpg",
     "static/media/Galaxy.jpg": "/static/media/Galaxy.e35d5be82fc2921aea1a.jpg",
+    "static/media/drainage.jpg": "/static/media/drainage.c3d6a9b3e97464e5f6ba.jpg",
     "static/media/DR.jpg": "/static/media/DR.9b1cf7fdeeba32bcaf1d.jpg",
     "static/media/mechanical.jpeg": "/static/media/mechanical.15724c26a6105ab7c795.jpeg",
     "static/media/mechanicalOntario.png": "/static/media/mechanicalOntario.c3fdcf066da4cefeba83.png",
     "static/media/TKSt.jpg": "/static/media/TKSt.0834ed653ffb860b1ff6.jpg",
+    "static/media/mic.jpg": "/static/media/mic.ec2e21ed75bb6584088c.jpg",
+    "static/media/joint.jpg": "/static/media/joint.65ec36412c8e73f4c478.jpg",
+    "static/media/mic-drainage.jpg": "/static/media/mic-drainage.e97a61302c24c6f22836.jpg",
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
     "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.972008943e8cfe571eff.pdf",
     "static/media/sheridan.jpg": "/static/media/sheridan.6d21909dc052cb823606.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e1dad251.css.map": "/static/css/main.e1dad251.css.map",
-    "main.e6caa489.js.map": "/static/js/main.e6caa489.js.map",
+    "main.66bfc46a.css.map": "/static/css/main.66bfc46a.css.map",
+    "main.10e0be89.js.map": "/static/js/main.10e0be89.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1dad251.css",
-    "static/js/main.e6caa489.js"
+    "static/css/main.66bfc46a.css",
+    "static/js/main.10e0be89.js"
   ]
 }
