@@ -103,7 +103,7 @@ function Projects() {
 				<section className="sm:grid sm:grid-cols-5 pt-5 relative">
 					<div className="sm:col-span-2"><img src={W128} className="w-72 mx-auto rounded-3xl"/></div>
 					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
-						<p className="pt-0 sm:pt-2">Waterloo Road 128 Residential Development</p>
+						<p className="pt-0 sm:pt-2">128 Waterloo Road Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed and calculated mechancial system for a single tower residential high-rise building, tackled government related utilities 
 							construction and submissions.

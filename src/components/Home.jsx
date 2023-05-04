@@ -79,6 +79,10 @@ function ShortDesc() {
 							&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed MEP systems for 3+ projects
 						</li>
 						<li className="pt-2">
+							✍🏻 '21: Earned <text className="font-semibold text-lime-500">Autodesk Certificate in AutoCAD and Revit MEP 
+							BIM</text> modelling
+						</li>
+						<li className="pt-2">
 							🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
 						</li>
 						<li className="pt-2 font-semibold text-xl sm:text-2xl">

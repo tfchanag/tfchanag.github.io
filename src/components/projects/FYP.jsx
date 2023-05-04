@@ -1,7 +1,9 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
 import fypPic from "../../images/Projects/FYP/FYP.jpg";
+import fypPic2 from "../../images/Projects/FYP/FYP-2.jpg";
 import resume from "../../resume/RichieChanResume.pdf";
+import liftForceEqua from "../../images/Projects/FYP/liftForceEqua.jpg";
 
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
@@ -59,33 +61,63 @@ function Nav() {
 	);
 };
 
-function TopPic() {
+function TopVideo() {
 	return(
 		<div>
 			{/* <img src={fypPic} className="pt-2 sm:pt-5 object-cover"></img> */}
-			<iframe className="w-full h-56 sm:h-96 pt-2 sm:pt-5" src="https://www.youtube.com/embed/MuhYXhpLLKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe className="w-full h-56 sm:h-96 pt-2 sm:pt-5" src="https://www.youtube.com/embed/MuhYXhpLLKk" 
+			title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+			gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 	);
 };
 
-function Description() {
+function Portfolio() {
 	return(
 		<div className="pt-2 sm:pt-5 text-white">
-			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
-			<p className="pt-2 text-sm sm:text-base">
-				As the project leader of my Final Year Project, I successfully <text className="font-semibold text-lime-500">produced a project 
-				schedule, research on flapping wing aerodynamic theory and wrote design specification</text>. Through this project, I demonstrated 
-				my ability to independently learn and apply new and advanced concepts. I am proud to have achieved an &nbsp;
-				<text className="font-semibold text-lime-500">"A"</text> grade for this project.
-			</p>
-			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
-			<p className="pt-2 text-sm sm:text-base">
-				This project was to design <text className="font-semibold text-lime-500">a flapping wing robot which is light weighted and 
-				with aerial ability</text>. There were two main objectives in this design project, designing an independent controlling system for 
-				both pitching and flapping mechanism being the first goal. Then, using small and light actuators for pitching and flapping would 
-				be the second. Since the goal was to fly, the body material must withstand pressure from motor and being light at the same time.
-			</p>
-			
+			{/* Final Year Project Section */}
+			<h1 className="text-3xl sm:text-4xl">Ultralight Insect Like Flying Robot</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-1 pb-1 sm:pb-3"><img src={fypPic2} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={liftForceEqua} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={fypPic} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							To design a light weight flapping wing robot <text className="font-semibold text-lime-500">with the ability to control 
+							it's flight direction</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Found an insect which I could minmic on, and use it's data as reference to design, 
+							choosen <text className="font-semibold text-lime-500">Honey Bee as model</text>
+						</li>
+						<li>
+							Designed the <text className="font-semibold text-lime-500">flapping frequency</text> of the robot by  
+							calculation, using <text className="font-semibold text-lime-500">Flapping Wing Aerodynamic Lift Force Equation</text>.
+						</li>
+
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							The robot achieved <text className="font-semibold text-lime-500">target flapping frequency</text> and 
+							with a <text className="font-semibold text-lime-500">flight diection control system using dual servo motors</text>
+						</li>
+						<li>
+							Achieved an <text className="font-semibold text-lime-500">"A" grade</text> for this project
+						</li>
+					</ul>
+				</div>
+			</section>
+
 		</div>
 	);
 };
@@ -101,8 +133,10 @@ const FYP = () => {
 					Previous
 				</a>
 			</Link>
-			<TopPic/>
-			<Description/>
+			<TopVideo/>
+			<br/>
+			<hr/>
+			<Portfolio/>
 			<Footer/>
 		</div>
 	);

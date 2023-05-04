@@ -1,6 +1,10 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
-import Autocad from "../../images/Projects/WR128/autocad.jpg";
+
+import drainage from "../../images/Projects/WR128/drainage.jpg";
+import drainage2 from "../../images/Projects/WR128/drainage2.jpg";
+import autocad from "../../images/Projects/WR128/autocad.jpg";
+
 import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -59,39 +63,78 @@ function Nav() {
 	);
 };
 
-function TopPic() {
-	return(
-		<div>
-			<img src={Autocad} className="pt-2 sm:pt-5 object-cover"></img>
-		</div>
-	);
-};
-
-function Description() {
+function Portfolio() {
 	return(
 		<div className="pt-2 sm:pt-5 text-white">
-			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
-			<p className="pt-2 text-sm sm:text-base">
-				As a <text className="font-semibold text-lime-500">plumbing and drainage (PL & DR) assistant engineer</text> , 
-				I worked closely with the Project Engineer to design the PL & DR systems for residential building.
-				<br/>
-				Solved <text className="font-semibold text-lime-500">complex freshwater lead-in connection issues</text> by conducting site visits 
-				and coordinating closely with the government's Water Supplies Department, leveraging strong problem-solving and communication skills.
-				<br/>
-				Overcame a significant challenge by designing the last manholes connecting to the public manholes, which required 
-				<text className="font-semibold text-lime-500">constructing a manhole close to a heritage building and under one of the 
-				busiest streets</text>, ultimately securing government approval.
-			</p>
-			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
-			<p className="pt-2 text-sm sm:text-base">
-				The project involved the construction of a 16-story residential building with <text className="font-semibold text-lime-500">2 
-				floors of clubhouse, parking lot and 16 floors of residential housing</text>. Seating on top of an existing electrical power 
-				transformer station.
-				<br/>
-				This project was seating near the <text className="font-semibold text-lime-500">busiest & old street of Hong Kong and near a 
-				heritage building</text>, the complex underground utilities posed a challenge for the design and construction of the PL & DR systems.
-			</p>
-			
+			{/* Drainage Design Approval Section */}
+			<h1 className="text-3xl sm:text-4xl">Drainage Design Approval</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-1 pb-1 sm:pb-3"><img src={drainage} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-2 pb-1 sm:pb-3"><img src={drainage2} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							Coordinated the drainage connection between the <text className="font-semibold text-lime-500">building and the civil 
+							drainage system</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Coordinated the <text className="font-semibold text-lime-500">connection methods and draiange loading</text>, 
+							then reviewed the drainage design according to the new building plan, with the civil engineer
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							Ensured <text className="font-semibold text-lime-500">compliance with relevant codes of practice</text> for 
+							both building and civil drainage systems
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<hr/>
+
+			{/* Review Plumbing Design Section */}
+			<h1 className="text-3xl sm:text-4xl pt-2">Review Plumbing Design</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-3 pb-1 sm:pb-3"><img src={autocad} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							To ensure the plumbing and drainage design <text className="font-semibold text-lime-500">complied with regulations 
+							and best practices</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Consistently reviewed the <text className="font-semibold text-lime-500">as-built drawings</text> submitted by 
+							the contractor, and participate in <text className="font-semibold text-lime-500">site visits</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							Both plumbing and drainage as-built drawings were <text className="font-semibold text-lime-500">approved by the 
+							government</text>
+						</li>
+					</ul>
+				</div>
+			</section>
+
 		</div>
 	);
 };
@@ -107,8 +150,7 @@ const WR128 = () => {
 					Previous
 				</a>
 			</Link>
-			<TopPic/>
-			<Description/>
+			<Portfolio/>
 			<Footer/>
 		</div>
 	);

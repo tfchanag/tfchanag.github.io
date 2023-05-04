@@ -1,6 +1,14 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
-import TKSTPic from "../../images/Projects/TKST/TKST-BIM.jpg";
+import BIM from "../../images/Projects/TKST/TKST-BIM.jpg";
+import sche from "../../images/Projects/TKST/SCHE.jpg";
+import PL from "../../images/Projects/TKST/PL.jpg";
+import DR from "../../images/Projects/TKST/DR.jpg";
+import MiC from "../../images/Projects/TKST/mic.jpg";
+import joint from "../../images/Projects/TKST/joint.jpg";
+import MiCDR from "../../images/Projects/TKST/mic-drainage.jpg";
+import solarSchem from "../../images/Projects/TKST/solarhot2.jpg";
+import solarLay from "../../images/Projects/TKST/solarhot1.jpg";
 import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -59,46 +67,167 @@ function Nav() {
 	);
 };
 
-function TopPic() {
-	return(
-		<div>
-			<img src={TKSTPic} className="pt-2 sm:pt-5 object-cover"></img>
-		</div>
-	);
-};
-
-function Description() {
+function Portfolio() {
 	return(
 		<div className="pt-2 sm:pt-5 text-white">
-			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
-			<p className="pt-2 text-sm sm:text-base">
-				As a <text className="font-semibold text-lime-500">project coordinator and plumbing and drainage (PL & DR) assistant engineer</text> 
-				, I collaborated closely with the Project Manager to oversee the MEP design of the entire building. This involved designing various 
-				systems such as <text className="font-semibold text-lime-500">solar hot water, greywater, and rainwater recycling</text>.
-				<br/>
-				Actively participated in coordinating with the structural engineer, architect, and in-house MEP engineer during the tender phase of 
-				the project to ensure seamless integration of MEP systems.
-				<br/>
-				I successfully coordinated and built a <text className="font-semibold text-lime-500">Revit model</text> using an external drafting 
-				company.
-				<br/>
-				Under the guidance of the Project Manager, I gained valuable experience in project coordination, PL & DR design, and tendering 
-				processes, while maintaining effective communication and collaboration with various stakeholders throughout the project.
-			</p>
-			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
-			<p className="pt-2 text-sm sm:text-base">
-				This 28-story high-rise residential building includes <text className="font-semibold text-lime-500">a shopping mall (w/ F&B), 
-				underground parking, sky garden, clubhouse, and 25 residential floors</text>. The project uses the &nbsp;
-				<a href="https://www.snclavalin.com/en/beyond-engineering/key-to-success-for-modular-integrated-construction#:~:text=Modular%20integrated%20construction%20uses%20prefabricated,installed%20in%20their%20final%20positions." className="italic text-blue-500 font-semibold">
-					Modular Integrated Construction method (MiC)
-				</a>.
-				which presents challenges for the MEP department due to the structure of each apartment being partly steel and partly concrete, 
-				requiring a different approach to designing MEP services.
-			</p>
+			{/* Revit BIM Section */}
+			<h1 className="text-3xl sm:text-4xl">Revit BIM</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-3 pb-1 sm:pb-3"><img src={BIM} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li><text className="font-semibold text-lime-500">Revit BIM model</text> was part of the project submission requirement</li>
+						<li><text className="font-semibold text-lime-500">LOD 300</text> at tender stage</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							To deliver BIM model on time, the drafting was outsourced to drafting company, 
+							but the <text className="font-semibold text-lime-500">clash coordination was done by myself</text> after 1st 
+							draft was received
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							After <text className="font-semibold text-lime-500">coordination using 3D BIM model, and AutoCAD</text>, the 
+							MEP services in the corridor were well placed with <text className="font-semibold text-lime-500">headroom left</text>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<hr/>
+
+			{/* Sustainable Section */}
+			<h1 className="text-3xl sm:text-4xl pt-2">Sustainable Plumbing System</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-2 pb-1 sm:pb-3"><img src={solarSchem} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={solarLay} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							The project requires sustainable plumbing systems 
+							to <text className="font-semibold text-lime-500">save energy and water</text>
+						</li>
+					</ul>
+				</div>
+				
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Meetings with suppliers with experiences in the <text className="font-semibold text-lime-500">solar hot water 
+							system, greywater and rainwater recycling system</text>
+						</li>
+						<li>
+							Designed the systems by preparing <text className="font-semibold text-lime-500">design calculations and design 
+							briefs</text>, explaining the treatment method / energy capture method and calculate the design requirements of each 
+							system using cooresponding energy equation
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>The solar hot water system saved <text className="font-semibold text-lime-500">2593kWh</text> annually</li>
+						<li>The rainwater recycling system saved <text className="font-semibold text-lime-500">13% of yearly irrigation water</text></li>
+						<li>The grey-water recycling system can process <text className="font-semibold text-lime-500">1350L per day</text></li>
+					</ul>
+				</div>
+			</section>
+
+			<hr/>
+
+			{/* MiC Section */}
+			<h1 className="text-3xl sm:text-4xl pt-2">MEP Design for MiC</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-1 pb-1 sm:pb-3"><img src={MiC} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={joint} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={MiCDR} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							This project utilizes <text className="font-semibold text-lime-500">Modular Integrated Construction 
+							(MiC)</text> method to construct
+						</li>
+						<li>
+							To design <text className="font-semibold text-lime-500">Plumbing and Drainage systems</text> which optimized for 
+							MiC method
+						</li>
+					</ul>
+				</div>
+				
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>Meetings with contractors and suppliers that had MiC experiences</li>
+						<li>
+							Adopted a plumbing connection method that could <text className="font-semibold text-lime-500">compensate the ±50mm 
+							tolerance </text>between modules
+						</li>
+						<li>
+							Designed drainage system <text className="font-semibold text-lime-500">without using sunken slab</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>Using <text className="font-semibold text-lime-500">flexible connectors</text> when connecting pipes between modules</li>
+						<li>
+							Purposely design drainage pipes <text className="font-semibold text-lime-500">running on the outer wall</text>, 
+							without going to sunken level
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<hr/>
+
+			{/* Plumbing Design Section */}
+			<h1 className="text-3xl sm:text-4xl pt-2">Plumbing System</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-1 pb-1 sm:pb-3"><img src={sche} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={PL} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1 pb-1 sm:pb-3 hidden sm:block"><img src={DR} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>Design <text className="font-semibold text-lime-500">Plumbing</text> schematics, layout and details drawings</li>
+					</ul>
+				</div>
+				
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>Design <text className="font-semibold text-lime-500">calculation and schematic</text> were first completed</li>
+						<li>Layout drawings <text className="font-semibold text-lime-500">drafted using AutoCAD </text></li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>Finished the complete set of tender drawings in <text className="font-semibold text-lime-500">1 month</text></li>
+					</ul>
+				</div>
+			</section>
+
 			
 		</div>
 	);
 };
+
 
 const TKST = () => {
 	useEffect(() => window.scrollTo(0, 0), []);
@@ -111,8 +240,7 @@ const TKST = () => {
 					Previous
 				</a>
 			</Link>
-			<TopPic/>
-			<Description/>
+			<Portfolio/>
 			<Footer/>
 		</div>
 	);

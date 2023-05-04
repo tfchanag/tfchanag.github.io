@@ -59,31 +59,38 @@ function Nav() {
 	);
 };
 
-function TopPic() {
-	return(
-		<div>
-			<img src={SitePic} className="pt-2 sm:pt-5 object-cover"></img>
-		</div>
-	);
-};
-
-function Description() {
+function Portfolio() {
 	return(
 		<div className="pt-2 sm:pt-5 text-white">
-			<p className="text-xl font-bold sm:text-3xl sm:font-normal">My Role</p>
-			<p className="pt-2 text-sm sm:text-base">
-				As an <text className="font-semibold text-lime-500">Assistant Building Service Engineer</text>, 
-				responsible for inspecting and testing mechanical components, I ensured that the layout of HVAC, plumbing & drainage, 
-				electrical and fire protection systems were constructed as designed. My documentation skills were utilized in maintaining 
-				accurate records of installation progress, inspection results and testing records. I ensured compliance with all relevant 
-				regulations and requirements.
-			</p>
-			<p className="pt-2 text-xl font-bold sm:pt-5 sm:font-normal sm:text-3xl">Project Description</p>
-			<p className="pt-2 text-sm sm:text-base">
-				This project consist of 4 high-rise buildings with <text className="font-semibold text-lime-500">2 floors of clubhouse, 
-				parking lot and a public road with greenery area</text>.
-			</p>
-			
+			{/* On-site Coordination Section */}
+			<h1 className="text-3xl sm:text-4xl">On-site Coordination</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-3 pb-1 sm:pb-3"><img src={SitePic} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							To ensure mechanical system were <text className="font-semibold text-lime-500">built as designed and 
+							practical on-site</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Coordinated on-site activities in a <text className="font-semibold text-lime-500">team-based environment, working 
+							with sub-contractors and consultants</text> to work on rearranging the layout and space for installation and maintenance
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>The mechanical systems were <text className="font-semibold text-lime-500">feasible to maintain and construct</text></li>
+					</ul>
+				</div>
+			</section>
 		</div>
 	);
 };
@@ -99,8 +106,7 @@ const KokoHills = () => {
 					Previous
 				</a>
 			</Link>
-			<TopPic/>
-			<Description/>
+			<Portfolio/>
 			<Footer/>
 		</div>
 	);

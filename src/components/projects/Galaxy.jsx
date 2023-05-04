@@ -1,11 +1,6 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
-import GalaxyPic from "../../images/Projects/Galaxy/Galaxy.jpg";
 import autocad from "../../images/Projects/Galaxy/autocad.jpg";
-import DR from "../../images/Projects/TKST/DR.jpg";
-import PL from "../../images/Projects/TKST/PL.jpg";
-import GREY from "../../images/Projects/TKST/GREY.jpg";
-import SCHE from "../../images/Projects/TKST/SCHE.jpg";
 import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
@@ -63,10 +58,77 @@ function Nav() {
 	);
 };
 
-function TopPic() {
+function Portfolio() {
 	return(
-		<div>
-			<img src={autocad} className="pt-2 sm:pt-5 w-full object-cover"></img>
+		<div className="pt-2 sm:pt-5 text-white">
+			{/* Drainage Coordination Section */}
+			<h1 className="text-3xl sm:text-4xl">Building and Civil Drainage Coordination</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-3 pb-1 sm:pb-3"><img src={autocad} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							Coordinated the drainage connection between the <text className="font-semibold text-lime-500">building and the civil 
+							drainage system</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Coordinated the <text className="font-semibold text-lime-500">connection methods and draiange loading</text>, 
+							then reviewed the drainage design according to the new building plan, with the civil engineer
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							Ensured <text className="font-semibold text-lime-500">compliance with relevant codes of practice</text> for 
+							both building and civil drainage systems
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<hr/>
+
+			{/* F&B PL DR Section */}
+			<h1 className="text-3xl sm:text-4xl pt-2">Food and Beverage Plumbing System</h1>
+			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">What?</h3>
+					<ul className="list-disc">
+						<li>
+							Designed plumbing and drainage system capable of handling <text className="font-semibold text-lime-500">restaurants 
+							in the luxurious shopping mall</text>
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">How?</h3>
+					<ul className="list-disc">
+						<li>
+							Designed multiple <text className="font-semibold text-lime-500">grease traps</text> by calculating the loading 
+							of restaurants, and <text className="font-semibold text-lime-500">pipe sizing</text> by calculating the loading 
+							of different types of restaurants
+						</li>
+					</ul>
+				</div>
+				<div className="sm:col-span-1">
+					<h3 className="text-lg font-semibold">Results</h3>
+					<ul className="list-disc">
+						<li>
+							Designed the system using <text className="font-semibold text-lime-500">8 standardized grease traps and served 12 
+							Food & Beverage restaurants</text>
+						</li>
+					</ul>
+				</div>
+			</section>
+
 		</div>
 	);
 };
@@ -96,22 +158,6 @@ function Description() {
 	);
 };
 
-function Pictures() {
-	return(
-		<div className="pt-10 pb-20">
-			<section className="grid grid-cols-2 gap-7">
-				<div className="col-span-1"><img src={DR} className="w-full rounded-xl"/></div>
-				<div className="col-span-1"><img src={PL} className="w-full rounded-xl"/></div>
-			</section>
-			<section className="pt-3 grid grid-cols-2 gap-7">
-				<div className="col-span-1"><img src={GREY} className="w-full rounded-xl"/></div>
-				<div className="col-span-1"><img src={SCHE} className="w-full rounded-xl"/></div>
-			</section>
-			
-		</div>
-	);
-}
-
 const Galaxy = () => {
 	useEffect(() => window.scrollTo(0, 0), []);
 	return(
@@ -123,8 +169,7 @@ const Galaxy = () => {
 					Previous
 				</a>
 			</Link>
-			<TopPic/>
-			<Description/>
+			<Portfolio/>
 			<Footer/>
 		</div>
 	);
