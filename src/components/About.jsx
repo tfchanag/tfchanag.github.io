@@ -233,7 +233,7 @@ function AboutMe() {
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2019</time>
-					<h3 class="text-lg font-semibold text-white">Construction MEP Job</h3>
+					<h3 class="text-lg font-semibold text-white">Construction MEP Career</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 						After a long time of job search and rounds of interviews, I landed my job as Assistant Building Service Engineer in <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a>. 
 						My first ever project was to coordinate and inspect the MEP construction on-site for residential high-rise buildings.
@@ -250,7 +250,7 @@ function AboutMe() {
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">Mar 2020</time>
-					<h3 class="text-lg font-semibold text-white">A MEP Consultant</h3>
+					<h3 class="text-lg font-semibold text-white">MEP Consultant</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 						I wanted to learn more about how to design MEP system and my goal was to become a licensed professional engineer in the future. 
 						So I joined <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> as 
