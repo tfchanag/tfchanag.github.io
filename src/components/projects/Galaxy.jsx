@@ -1,7 +1,7 @@
 import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
 import autocad from "../../images/Projects/Galaxy/autocad.jpg";
-import resume from "../../resume/RichieChanResume.pdf";
+import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 import Footer from "../Footer";

@@ -5,7 +5,7 @@ import drainage from "../../images/Projects/WR128/drainage.jpg";
 import drainage2 from "../../images/Projects/WR128/drainage2.jpg";
 import autocad from "../../images/Projects/WR128/autocad.jpg";
 
-import resume from "../../resume/RichieChanResume.pdf";
+import resume from "../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
