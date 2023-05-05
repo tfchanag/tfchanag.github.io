@@ -70,7 +70,7 @@ function Portfolio() {
 			<h1 className="text-3xl sm:text-4xl">Drainage Design Approval</h1>
 			<section className="sm:grid sm:grid-cols-3 sm:pt-5 pt-2 pb-2 sm:pb-3 relative sm:gap-5">
 				<div className="sm:col-span-1 pb-1 sm:pb-3"><img src={drainage} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
-				<div className="sm:col-span-2 pb-1 sm:pb-3"><img src={drainage2} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
+				<div className="sm:col-span-2 pb-1 sm:pb-3 hidden sm:block"><img src={drainage2} className="w-full mx-auto sm:h-72 sm:w-auto rounded-3xl"/></div>
 				<div className="sm:col-span-1">
 					<h3 className="text-lg font-semibold">What?</h3>
 					<ul className="list-disc">
