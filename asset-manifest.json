@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66bfc46a.css",
-    "main.js": "/static/js/main.d328c4ee.js",
+    "main.js": "/static/js/main.9cfe61ca.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -33,19 +33,19 @@
     "static/media/mechanicalOntario.png": "/static/media/mechanicalOntario.c3fdcf066da4cefeba83.png",
     "static/media/TKSt.jpg": "/static/media/TKSt.0834ed653ffb860b1ff6.jpg",
     "static/media/mic.jpg": "/static/media/mic.ec2e21ed75bb6584088c.jpg",
+    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.b805a318ba4ed9f082ae.pdf",
     "static/media/joint.jpg": "/static/media/joint.65ec36412c8e73f4c478.jpg",
-    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.f0f715a18a75db60173c.pdf",
     "static/media/mic-drainage.jpg": "/static/media/mic-drainage.e97a61302c24c6f22836.jpg",
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
     "static/media/sheridan.jpg": "/static/media/sheridan.6d21909dc052cb823606.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.66bfc46a.css.map": "/static/css/main.66bfc46a.css.map",
-    "main.d328c4ee.js.map": "/static/js/main.d328c4ee.js.map",
+    "main.9cfe61ca.js.map": "/static/js/main.9cfe61ca.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66bfc46a.css",
-    "static/js/main.d328c4ee.js"
+    "static/js/main.9cfe61ca.js"
   ]
 }
