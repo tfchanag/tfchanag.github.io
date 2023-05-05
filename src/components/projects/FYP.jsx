@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 import Icon from "../../logo.svg";
 import fypPic from "../../images/Projects/FYP/FYP.jpg";
 import fypPic2 from "../../images/Projects/FYP/FYP-2.jpg";
-import resume from "../resume/RichieChanResume.pdf";
+import resume from "../../resume/RichieChanResume.pdf";
 import liftForceEqua from "../../images/Projects/FYP/liftForceEqua.jpg";
 
 import { Link } from "react-router-dom";

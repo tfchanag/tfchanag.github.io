@@ -9,7 +9,7 @@ import joint from "../../images/Projects/TKST/joint.jpg";
 import MiCDR from "../../images/Projects/TKST/mic-drainage.jpg";
 import solarSchem from "../../images/Projects/TKST/solarhot2.jpg";
 import solarLay from "../../images/Projects/TKST/solarhot1.jpg";
-import resume from "../resume/RichieChanResume.pdf";
+import resume from "../../resume/RichieChanResume.pdf";
 
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
