@@ -82,9 +82,9 @@ return(
 	<div>
 		<p className='text-slate-300 text-base sm:text-lg'>
 			An experienced Mechanical Designer with 2 years of experience in mechanical design for buildings. Skilled in plumbing design, 
-			Revit BIM MEP and AutoCAD 2D drafting. I am passionate about contributing my knowledge to improve comfort by designing sustainable 
+			Revit BIM MEP and AutoCAD 2D drafting. I am passionate to contribute my knowledge to improve comfort by designing sustainable 
 			and cost-efficient systems, preserving and revitalising historical buildings by adding modernized MEP systems to heritage buildings. 
-			My goal is to further develop my skills and knowledge and transition into a professional engineering role.
+			My goal is to further develop my skills and knowledge and transition to a professional engineering role.
 		</p>
 		<h3 className='text-xl sm:text-3xl text-slate-100 pt-3 sm:pt-5'>Skills</h3>
 		<hr></hr>
