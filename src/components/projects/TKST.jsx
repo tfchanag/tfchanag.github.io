@@ -85,7 +85,7 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							To deliver BIM model on time, the drafting was outsourced to drafting company, 
+							To deliver the BIM model on time, the drafting was outsourced to a drafting company, 
 							but the <text className="font-semibold text-lime-500">clash coordination was done by myself</text> after 1st 
 							draft was received
 						</li>
@@ -95,7 +95,7 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">Results</h3>
 					<ul className="list-disc">
 						<li>
-							After <text className="font-semibold text-lime-500">coordination using 3D BIM model, and AutoCAD</text>, the 
+							After <text className="font-semibold text-lime-500">coordination using the 3D BIM model, and AutoCAD</text>, the 
 							MEP services in the corridor were well placed with <text className="font-semibold text-lime-500">headroom left</text>
 						</li>
 					</ul>
@@ -124,13 +124,13 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							Meetings with suppliers with experiences in the <text className="font-semibold text-lime-500">solar hot water 
+							Meetings with suppliers with experience in the <text className="font-semibold text-lime-500">solar hot water 
 							system, greywater and rainwater recycling system</text>
 						</li>
 						<li>
 							Designed the systems by preparing <text className="font-semibold text-lime-500">design calculations and design 
-							briefs</text>, explaining the treatment method / energy capture method and calculate the design requirements of each 
-							system using cooresponding energy equation
+							briefs</text>, explaining the treatment method/energy capture method and calculating the design requirements of 
+							each system using the corresponding energy equation
 						</li>
 					</ul>
 				</div>
@@ -161,7 +161,7 @@ function Portfolio() {
 							(MiC)</text> method to construct
 						</li>
 						<li>
-							To design <text className="font-semibold text-lime-500">Plumbing and Drainage systems</text> which optimized for 
+							To design <text className="font-semibold text-lime-500">Plumbing and Drainage systems</text> optimized for the 
 							MiC method
 						</li>
 					</ul>
@@ -172,8 +172,8 @@ function Portfolio() {
 					<ul className="list-disc">
 						<li>Meetings with contractors and suppliers that had MiC experiences</li>
 						<li>
-							Adopted a plumbing connection method that could <text className="font-semibold text-lime-500">compensate the ±50mm 
-							tolerance </text>between modules
+							Adopted a plumbing connection method that could <text className="font-semibold text-lime-500">compensate for the 
+							±50mm tolerance </text>between modules
 						</li>
 						<li>
 							Designed drainage system <text className="font-semibold text-lime-500">without using sunken slab</text>
@@ -204,7 +204,7 @@ function Portfolio() {
 				<div className="sm:col-span-1">
 					<h3 className="text-lg font-semibold">What?</h3>
 					<ul className="list-disc">
-						<li>Design <text className="font-semibold text-lime-500">Plumbing</text> schematics, layout and details drawings</li>
+						<li>Design Plumbing <text className="font-semibold text-lime-500">schematics, layout and details drawings</text></li>
 					</ul>
 				</div>
 				

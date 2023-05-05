@@ -75,8 +75,14 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">What?</h3>
 					<ul className="list-disc">
 						<li>
-							Coordinated the drainage connection between the <text className="font-semibold text-lime-500">building and the civil 
-							drainage system</text>
+							The building drainage connection with the public manhole was <text className="font-semibold text-lime-500">
+								blocked by existing utility services underground</text>
+						</li>
+						<li>
+							Construction will <text className="font-semibold text-lime-500">affect traffic and a heritage building</text>
+						</li>
+						<li>
+							<text className="font-semibold text-lime-500">The original design was rejected</text> by the government
 						</li>
 					</ul>
 				</div>
@@ -84,8 +90,16 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							Coordinated the <text className="font-semibold text-lime-500">connection methods and draiange loading</text>, 
-							then reviewed the drainage design according to the new building plan, with the civil engineer
+							<text className="font-semibold text-lime-500">I studied the existing plans</text> of the public drainage system 
+							and the underground <text className="font-semibold text-lime-500">utility survey report</text> from the contractor
+						</li>
+						<li>
+							The contractor proposed <text className="font-semibold text-lime-500">pipe jacking</text> method to install pipes without affecting traffic
+						</li>
+						<li>
+							I designed a <text className="font-semibold text-lime-500">new drainage connection</text> optimized for 
+							the <text className="font-semibold text-lime-500">pipe jacking method</text>, without affecting existing 
+							underground services and <text className="font-semibold text-lime-500">complied with regulatory standard</text>
 						</li>
 					</ul>
 				</div>
@@ -93,8 +107,8 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">Results</h3>
 					<ul className="list-disc">
 						<li>
-							Ensured <text className="font-semibold text-lime-500">compliance with relevant codes of practice</text> for 
-							both building and civil drainage systems
+							After few rounds of submission and discussion with government departments, <text className="font-semibold text-lime-500">
+								design was approved in 2 months</text> using new installation method and design
 						</li>
 					</ul>
 				</div>

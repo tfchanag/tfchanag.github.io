@@ -78,7 +78,7 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							Coordinated the <text className="font-semibold text-lime-500">connection methods and draiange loading</text>, 
+							Coordinated the <text className="font-semibold text-lime-500">connection methods and drainage loading</text>, 
 							then reviewed the drainage design according to the new building plan, with the civil engineer
 						</li>
 					</ul>

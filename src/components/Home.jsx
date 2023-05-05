@@ -86,7 +86,7 @@ function ShortDesc() {
 							🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
 						</li>
 						<li className="pt-2 font-semibold text-xl sm:text-2xl">
-							👷🏻‍♂️ '23: Strive for an opputunity to start my journey becoming <text className="text-lime-500">PEng.</text>
+							👷🏻‍♂️ '23: Strive for an opportunity to start my journey becoming <text className="text-lime-500">PEng.</text>
 						</li>
 					</ul>
 				</div>

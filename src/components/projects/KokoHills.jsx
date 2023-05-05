@@ -70,7 +70,7 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">What?</h3>
 					<ul className="list-disc">
 						<li>
-							To ensure mechanical system were <text className="font-semibold text-lime-500">built as designed and 
+							To ensure mechanical systems were <text className="font-semibold text-lime-500">built as designed and 
 							practical on-site</text>
 						</li>
 					</ul>

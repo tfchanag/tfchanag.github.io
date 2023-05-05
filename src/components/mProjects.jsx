@@ -79,8 +79,8 @@ function Projects() {
 					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Tonkin Street Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed mechanical system and as a project coordinator of this high-rise residential building, coordinated with in-house 
-							engineers, clients, architect and responsible for government submissions.
+							Designed mechanical systems and as a project coordinator of this high-rise residential building, coordinated with in-house 
+							engineers, clients, and architects and was responsible for government submissions.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
@@ -93,7 +93,7 @@ function Projects() {
 						<p className="pt-0 sm:pt-2">Macau Galaxy Hotel Phase 3</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
 							Designed plumbing & drainage system for the entertainment complex, with casino, hotel, shopping mall, restaurant and 
-							open landscape sections. Coordinated with onsite engineer, clients and civil enginers.
+							open landscape sections. Coordinated with onsite engineers, clients and civil engineers.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
@@ -105,8 +105,8 @@ function Projects() {
 					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">128 Waterloo Road Residential Development</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed and calculated mechancial system for a single tower residential high-rise building, tackled government related utilities 
-							construction and submissions.
+							Designed and calculated mechanical system for a single-tower residential high-rise building, and tackled 
+							government-related utilities construction and submissions.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>
@@ -130,7 +130,7 @@ function Projects() {
 					<div className="mt-2 sm:mt-0 p-2 pt-0 text-lg font-semibold sm:pl-5 sm:text-3xl sm:col-span-3 bg-green-800 hover:bg-lime-700 hover:transition rounded-lg">
 						<p className="pt-0 sm:pt-2">Design and Development of an Ultralight Insect Like Flying Robot</p>
 						<p className="text-base font-normal sm:text-lg pt-2">
-							Designed a flapping wing robot that minmic insect flying pattern.
+							Designed a flapping wing robot that mimics insect flying pattern.
 						</p>
 						<p className="italic text-base absolute right-1 bottom-0 text-slate-300">Details →</p>
 					</div>

@@ -85,8 +85,8 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">What?</h3>
 					<ul className="list-disc">
 						<li>
-							To design a light weight flapping wing robot <text className="font-semibold text-lime-500">with the ability to control 
-							it's flight direction</text>
+							To design a lightweight flapping wing robot <text className="font-semibold text-lime-500">with the ability to control 
+							its flight direction</text>
 						</li>
 					</ul>
 				</div>
@@ -94,8 +94,8 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							Found an insect which I could minmic on, and use it's data as reference to design, 
-							choosen <text className="font-semibold text-lime-500">Honey Bee as model</text>
+							Found an insect which I could mimic, and use its data as a reference to design, 
+							chose <text className="font-semibold text-lime-500">Honey Bee as model</text>
 						</li>
 						<li>
 							Designed the <text className="font-semibold text-lime-500">flapping frequency</text> of the robot by  
@@ -108,8 +108,8 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">Results</h3>
 					<ul className="list-disc">
 						<li>
-							The robot achieved <text className="font-semibold text-lime-500">target flapping frequency</text> and 
-							with a <text className="font-semibold text-lime-500">flight diection control system using dual servo motors</text>
+							The robot achieved <text className="font-semibold text-lime-500">target flapping frequency</text> with 
+							a <text className="font-semibold text-lime-500">flight direction control system using dual servo motors</text>
 						</li>
 						<li>
 							Achieved an <text className="font-semibold text-lime-500">"A" grade</text> for this project

@@ -1,5 +1,5 @@
 import { React, useEffect } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Icon from "../logo.svg";
 import resume from "../resume/RichieChanResume.pdf";
 import HKUST from "../images/About/HKUST.jpg";
@@ -81,8 +81,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2015</time>
 					<h3 class="text-lg font-semibold text-white">Study at HKUST</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						Through endeavour and will power, I was accepted in one of the most prestige university in Hong Kong - <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
-						&nbsp;and enrolled in Bachleor in Engineering Program.
+						Through my endeavour and willpower, I was accepted into one of the most prestigious universities in Hong Kong 
+						- <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong 
+						University of Science and Technology</a> and enrolled in Bachelor in Engineering Program.
 					</p>
 					<div className="sm:w-1/3">
 						<figure className="inline-block max-w-sm">
@@ -100,8 +101,10 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2016</time>
 					<h3 class="text-lg font-semibold text-white">Intern at Technology Transfer Center</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						Got a opputunities to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>.
-						&nbsp;Learned a lot about contract law, technology's patent related procedures and legal terms. Have been Working there for 2 years, gained lots of contract knowledge there.
+						Got an opportunity to work at the <a href="https://okt.hkust.edu.hk/" target="_blank" className="italic 
+						text-blue-500 font-semibold underline">Technology Transfer Center of HKUST</a>. Learned a lot about contract law, 
+						technology's patent-related procedures and legal terms. Have been working there for 2 years, and gained lots of 
+						contract knowledge there.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -117,9 +120,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2016</time>
 					<h3 class="text-lg font-semibold text-white">Mechanical Engineering</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I chose major in mechanical engineering, not only for the love of mecha robots, also I wanted my future career to be helpful to the society and 
-						improving citizen's wellbeing. Renewable energy, machinery, product design and Air-con are all mechancial, 
-						so at the end I chose mechanical engineering.
+					I chose major in mechanical engineering, not only for the love of mecha robots but also because I wanted my future 
+					career to be helpful to society and improve citizen's well-being. Renewable energy, machinery, product design and Air-con 
+					are all mechanical, so in the end I chose mechanical engineering.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -138,10 +141,11 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2017</time>
 					<h3 class="text-lg font-semibold text-white">Exchange in Netherland</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Eindhoven University of Technology</a> 
-						&nbsp;as an exchange student for 6 months, I was amazed how industrial focus their mechanical engineering program are. Even fluid dynamic they taught 
-						were industrial piping theory. Since Netherland has a lot of historical buildings, I started to grow interest in how they renovate and 
-						the heritage buildings and modernized it by adding MEP system to it.
+						I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold 
+						underline">Eindhoven University of Technology</a> as an exchange student for 6 months, I was amazed at how industrial 
+						focus their mechanical engineering program is. Even fluid dynamics they taught were industrial piping theory. Since 
+						the Netherlands has a lot of historical buildings, I started to grow interested in how they renovate the heritage 
+						buildings and modernized them by adding the MEP system to it.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -157,9 +161,10 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2018</time>
 					<h3 class="text-lg font-semibold text-white">Work at Brainchild</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Brainchild</a> was my second company 
-						I worked with. Taught kids built VEX robot for VEX IQ competition, DIY anything they have in mind and write simple programming. It was challenging since children 
-						have a lot of ideas, I fulfilled them using limited tools and material. But, it's fun to work with children on projects.
+						<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold 
+						underline">Brainchild</a> was the second company I worked with. Taught kids to build VEX robot for VEX IQ competition, 
+						DIY anything they have in mind and write simple programming. It was challenging since children have a lot of ideas, and 
+						I fulfilled them using limited tools and materials. It was fun to work with children on projects.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -175,9 +180,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2018</time>
 					<h3 class="text-lg font-semibold text-white">Final Year Project</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I worked under Prof. Huihe QIU, designed an Ultralight Insect Like Flying Robot. It was a exciting project, since the body weight
-						of the robot have to be light, the material had to be light and at the same time can withhold the force from motor. Flapping wing 
-						motion was difficult to replicate in a tiny robot.
+					I worked under Prof. Huihe QIU, designing an Ultralight Insect Like Flying Robot. It was an exciting project, 
+					since the body weight of the robot have to be light, the material had to be light and at the same time can withhold 
+					the force from the motor. Flapping wing motion was difficult to replicate in a tiny robot.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -235,8 +240,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2019</time>
 					<h3 class="text-lg font-semibold text-white">Construction MEP Career</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						After a long time of job search and rounds of interviews, I landed my job as Assistant Building Service Engineer in <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a>. 
-						My first ever project was to coordinate and inspect the MEP construction on-site for residential high-rise buildings.
+						After rounds of interviews, I landed my job as Assistant Building Service Engineer in <a href="https://www.hiphing.com.hk/en/" 
+						target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a>. My first-ever project was to 
+						coordinate and inspect the MEP construction on-site for residential high-rise buildings.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -252,11 +258,12 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">Mar 2020</time>
 					<h3 class="text-lg font-semibold text-white">MEP Consultant</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I wanted to learn more about how to design MEP system and my goal was to become a licensed professional engineer in the future. 
-						So I joined <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold underline">Aurecon</a> as 
-						an Assisant Mechanical Engineer. I was given 3+ projects to work on, learned and designed mechanical system on the job for high-rise residential,
-						entertainment and commercial buildings. I have designed solar hot water, greay water and rainwater recycling system, which was one of my objective, 
-						improving my city using green technologies. I was fortunate to work with these talented coworkers and innovative projects.
+						I wanted to work on designing MEP systems and my goal was to become a licensed professional engineer in the future. 
+						So I joined <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold 
+						underline">Aurecon</a> as an Assistant Mechanical Engineer. I was given 3+ projects to work on, learned and designed 
+						mechanical systems on the job for high-rise residential, entertainment and commercial buildings. I have designed solar 
+						hot water, grey water and rainwater recycling system, which was one of my objectives, improving my city using sustainable 
+						technologies. I was fortunate to work with these talented coworkers and innovative projects.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -272,8 +279,8 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2021</time>
 					<h3 class="text-lg font-semibold text-white">Leaving Hong Kong</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						With everything happened in Hong Kong socially and politically. I decided to leave Hong Kong and start over again in Canada. 
-						Unfortunatly I have to leave Aurecon, it was great year working with lots of excellent seniors and managers.
+					With everything happening in Hong Kong, socially and politically. I decided to leave Hong Kong and start over again in Canada. 
+					Unfortunately, I have to leave Aurecon, it was a great year working with lots of excellent seniors and managers.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -289,7 +296,7 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023</time>
 					<h3 class="text-lg font-semibold text-white">Settled Down in Toronto</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						After a year and a half settling in Canada as a recent immigrant, and COVID finally gone. I finally settled down in Toronto.
+						After a year and a half of settling in Canada as a recent immigrant, COVID is finally gone. I finally settled down in Toronto.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -305,9 +312,9 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">February 2023</time>
 					<h3 class="text-lg font-semibold text-white">Job Searching in Toronto's MEP Industry</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						Now, I can switch my focus to starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk, 
-						experiences I gained from my journey, I am striving for opputunities in Toronto's MEP industry. Hoping I could contribute to 
-						Canada's carbon zero target and improving the wellbing of the Canadians through designing outstanding MEP systems.
+					Now, I can switch my focus to starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk 
+					and the experiences I gained from my journey, I am striving for opportunities in Toronto's MEP industry. Hoping I could 
+					contribute to Canada's carbon zero target and improve the well-being of the Canadians through designing outstanding MEP systems.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
