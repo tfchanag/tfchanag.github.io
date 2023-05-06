@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
 import Icon from "../logo.svg";
-import TKST from "../images/Projects/TKST/TKSt.jpg";
+import TKST from "../images/Projects/TKST/sitePic.jpg";
 import Galaxy from "../images/Projects/Galaxy/Galaxy.jpg";
 import W128 from "../images/Projects/WR128/128.jpg";
 import KokoHills from "../images/Projects/KokoHills/Kokohills.jpg";

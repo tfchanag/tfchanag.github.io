@@ -83,7 +83,7 @@ function AboutMe() {
 					<p class="mb-4 text-base font-normal text-slate-300">
 						Through my endeavour and willpower, I was accepted into one of the most prestigious universities in Hong Kong 
 						- <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong 
-						University of Science and Technology</a> and enrolled in Bachelor in Engineering Program.
+						University of Science and Technology</a> and enrolled in the Bachelor in Engineering Program.
 					</p>
 					<div className="sm:w-1/3">
 						<figure className="inline-block max-w-sm">
@@ -144,8 +144,8 @@ function AboutMe() {
 						I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Eindhoven University of Technology</a> as an exchange student for 6 months, I was amazed at how industrial 
 						focus their mechanical engineering program is. Even fluid dynamics they taught were industrial piping theory. Since 
-						the Netherlands has a lot of historical buildings, I started to grow interest in how they renovated the heritage 
-						buildings and modernized them by adding the MEP system to it.
+						the Netherlands has a lot of historical buildings, I started to grow interested in how they renovated the heritage 
+						buildings and modernized them by adding the MEP system to them.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -164,7 +164,7 @@ function AboutMe() {
 						<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Brainchild</a> was the second company I worked with. Taught kids to build VEX robot for VEX IQ competition, 
 						DIY anything they have in mind and wrote simple programming. It was challenging since children are abundant in innovative 
-						thoughts, yet I needed to fulfill them with limited tools and materials.
+						thoughts, yet I needed to fulfil them with limited tools and materials.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -263,7 +263,7 @@ function AboutMe() {
 						underline">Aurecon</a> as an Assistant Mechanical Engineer. I was given 3+ projects to work on, learned and designed 
 						mechanical systems on the job for high-rise residential, entertainment and commercial buildings. I have designed solar 
 						hot water, grey water and rainwater recycling system, which was one of my objectives, improving my city using sustainable 
-						technologies. I was fortunate to work with the talented coworkers and innovative projects.
+						technologies. I was fortunate to work with talented coworkers and innovative projects.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -280,7 +280,7 @@ function AboutMe() {
 					<h3 class="text-lg font-semibold text-white">Leaving Hong Kong</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 					In 2021, I decided to leave Hong Kong and start over again in Canada. 
-					Unfortunately, I have to leave Aurecon, it was a great year working with lots of excellent seniors and managers.
+					Unfortunately, I have to leave Aurecon, it was a great year working with lots of talented seniors and managers.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -315,7 +315,7 @@ function AboutMe() {
 					<p class="mb-4 text-base font-normal text-slate-300">
 					Now, I can switch my focus to starting a career in Canada. With the AutoCAD and Revit certificates I earned from Autodesk 
 					and the experiences I gained from my journey, I am striving for opportunities in Toronto's MEP industry. Hoping I could 
-					contribute to Canada's carbon zero target and improve the well-being of the Canadians through designing outstanding MEP systems.
+					contribute to Canada's carbon zero target and improve the well-being of Canadians through designing outstanding MEP systems.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
