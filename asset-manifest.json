@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66bfc46a.css",
-    "main.js": "/static/js/main.b1485e5d.js",
+    "main.js": "/static/js/main.edeb4aed.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -10,11 +10,11 @@
     "static/media/Kokohills.jpg": "/static/media/Kokohills.7ab6a4643db7fa94d662.jpg",
     "static/media/AUR.jpg": "/static/media/AUR.7e55eb10641a3f55ffa0.jpg",
     "static/media/FYP-2.jpg": "/static/media/FYP-2.06bf1b3fa2abe36cef56.jpg",
+    "static/media/sitePic.jpg": "/static/media/sitePic.8e82c3b15bceb4a191ec.jpg",
     "static/media/FYP.jpg": "/static/media/FYP.346736e4814b2e6bf219.jpg",
     "static/media/FYP2.jpg": "/static/media/FYP2.8d67f5efd039d1b1dc34.jpg",
     "static/media/HKUST.jpg": "/static/media/HKUST.d219756873f3dc581e84.jpg",
     "static/media/Chateau.webp": "/static/media/Chateau.7934bb86a4311b97bd12.webp",
-    "static/media/sitePic.jpg": "/static/media/sitePic.8e82c3b15bceb4a191ec.jpg",
     "static/media/autocad.jpg": "/static/media/autocad.a35286f9119b1650fbdc.jpg",
     "static/media/vex.png": "/static/media/vex.c62fc171f297dfac3910.png",
     "static/media/128.jpg": "/static/media/128.8e2e4db481a36f2db1db.jpg",
@@ -31,9 +31,8 @@
     "static/media/DR.jpg": "/static/media/DR.9b1cf7fdeeba32bcaf1d.jpg",
     "static/media/mechanical.jpeg": "/static/media/mechanical.15724c26a6105ab7c795.jpeg",
     "static/media/mechanicalOntario.png": "/static/media/mechanicalOntario.c3fdcf066da4cefeba83.png",
-    "static/media/TKSt.jpg": "/static/media/TKSt.0834ed653ffb860b1ff6.jpg",
     "static/media/mic.jpg": "/static/media/mic.ec2e21ed75bb6584088c.jpg",
-    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.355b0cc80cb93f539971.pdf",
+    "static/media/RichieChanResume.pdf": "/static/media/RichieChanResume.77992fd9ca545fb55018.pdf",
     "static/media/joint.jpg": "/static/media/joint.65ec36412c8e73f4c478.jpg",
     "static/media/mic-drainage.jpg": "/static/media/mic-drainage.e97a61302c24c6f22836.jpg",
     "static/media/AUR2.jpg": "/static/media/AUR2.7eec369b2e70d56f245e.jpg",
@@ -41,11 +40,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.66bfc46a.css.map": "/static/css/main.66bfc46a.css.map",
-    "main.b1485e5d.js.map": "/static/js/main.b1485e5d.js.map",
+    "main.edeb4aed.js.map": "/static/js/main.edeb4aed.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66bfc46a.css",
-    "static/js/main.b1485e5d.js"
+    "static/js/main.edeb4aed.js"
   ]
 }
