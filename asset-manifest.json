@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66bfc46a.css",
-    "main.js": "/static/js/main.9e0df639.js",
+    "main.js": "/static/js/main.61b3f513.js",
     "static/js/787.223550ad.chunk.js": "/static/js/787.223550ad.chunk.js",
     "static/media/Now.jpg": "/static/media/Now.ea1c014201fafc619e8c.jpg",
     "static/media/SFR.jpg": "/static/media/SFR.02ab6df25c9e08df98a5.jpg",
@@ -41,11 +41,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.66bfc46a.css.map": "/static/css/main.66bfc46a.css.map",
-    "main.9e0df639.js.map": "/static/js/main.9e0df639.js.map",
+    "main.61b3f513.js.map": "/static/js/main.61b3f513.js.map",
     "787.223550ad.chunk.js.map": "/static/js/787.223550ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66bfc46a.css",
-    "static/js/main.9e0df639.js"
+    "static/js/main.61b3f513.js"
   ]
 }
