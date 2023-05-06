@@ -133,7 +133,7 @@ function Portfolio() {
 					<h3 className="text-lg font-semibold">How?</h3>
 					<ul className="list-disc">
 						<li>
-							Consistently reviewed the <text className="font-semibold text-lime-500">as-built drawings</text> submitted by 
+							Consistently reviewed the <text className="font-semibold text-lime-500">vendor and as-built drawings</text> submitted by 
 							the contractor, and participate in <text className="font-semibold text-lime-500">site visits</text>
 						</li>
 					</ul>

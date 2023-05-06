@@ -144,7 +144,7 @@ function AboutMe() {
 						I went to <a href="https://www.tue.nl/en/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Eindhoven University of Technology</a> as an exchange student for 6 months, I was amazed at how industrial 
 						focus their mechanical engineering program is. Even fluid dynamics they taught were industrial piping theory. Since 
-						the Netherlands has a lot of historical buildings, I started to grow interested in how they renovate the heritage 
+						the Netherlands has a lot of historical buildings, I started to grow interest in how they renovated the heritage 
 						buildings and modernized them by adding the MEP system to it.
 					</p>
 					<div className="sm:w-1/3 w-full">
@@ -163,7 +163,7 @@ function AboutMe() {
 					<p class="mb-4 text-base font-normal text-slate-300">
 						<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Brainchild</a> was the second company I worked with. Taught kids to build VEX robot for VEX IQ competition, 
-						DIY anything they have in mind and write simple programming. It was challenging since children have a lot of ideas, and 
+						DIY anything they have in mind and wrote simple programming. It was challenging since children have a lot of ideas, and 
 						I fulfilled them using limited tools and materials. It was fun to work with children on projects.
 					</p>
 					<div className="sm:w-1/3 w-full">
@@ -181,7 +181,7 @@ function AboutMe() {
 					<h3 class="text-lg font-semibold text-white">Final Year Project</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 					I worked under Prof. Huihe QIU, designing an Ultralight Insect Like Flying Robot. It was an exciting project, 
-					since the body weight of the robot have to be light, the material had to be light and at the same time can withhold 
+					since the body weight of the robot have to be light, and at the same time can withhold 
 					the force from the motor. Flapping wing motion was difficult to replicate in a tiny robot.
 					</p>
 					<div className="sm:w-1/3 w-full">
@@ -198,8 +198,8 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2019</time>
 					<h3 class="text-lg font-semibold text-white">Scored "A" for FYP!!!</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						With the help of my team members and Prof. QIU, we completed the FYP with excellency. I scored an "A" for this project, 
-						I am proud of myself and my team.
+						With the help of my team members and Prof. QIU, we completed the FYP with excellency. WWe successfully achieved the 
+						objectives, I am proud of myself and my team.
 						<br/>
 						<br/>
 						Checkout the final product <Link to="/fyp" className="italic text-blue-500 font-semibold underline">HERE</Link>
@@ -219,11 +219,11 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">April 2019</time>
 					<h3 class="text-lg font-semibold text-white">Deciding My Future</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						My university journey is near the end, and my future career is yet to decide. Then I stumble appon this TV series, <a 
+						My university journey was near the end, and my future career was yet to decide. Then I stumbled appon this TV series, <a 
 						href="https://en.wikipedia.org/wiki/Escape_to_the_Chateau" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Escape to the Chateau</a>. Watching this married couple bought an old Chateau in France with cheap price and 
-						transferring it into a modernized Chateau with elevator, electricity, gas and lighting. I was fasinated how they design 
-						and construct all of those all by themselves. I was inspired that I wanted to do something like them, design and construct 
+						transferring it into a modernized Chateau with elevator, electricity, gas and lighting. I was fasinated how they designed 
+						and constructed the systems all by themselves. I was inspired to do something like them, design and construct 
 						MEP system for buildings, make living space enjoyable and comfortable.
 					</p>
 					<div className="sm:w-1/3 w-full">
@@ -258,12 +258,12 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">Mar 2020</time>
 					<h3 class="text-lg font-semibold text-white">MEP Consultant</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						I wanted to work on designing MEP systems and my goal was to become a licensed professional engineer in the future. 
+						I wanted to design MEP systems and my goal was to become a licensed professional engineer in the future. 
 						So I joined <a href="https://www.aurecongroup.com/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Aurecon</a> as an Assistant Mechanical Engineer. I was given 3+ projects to work on, learned and designed 
 						mechanical systems on the job for high-rise residential, entertainment and commercial buildings. I have designed solar 
 						hot water, grey water and rainwater recycling system, which was one of my objectives, improving my city using sustainable 
-						technologies. I was fortunate to work with these talented coworkers and innovative projects.
+						technologies. I was fortunate to work with the talented coworkers and innovative projects.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -279,7 +279,7 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">July 2021</time>
 					<h3 class="text-lg font-semibold text-white">Leaving Hong Kong</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-					With everything happening in Hong Kong, socially and politically. I decided to leave Hong Kong and start over again in Canada. 
+					In 2021, I decided to leave Hong Kong and start over again in Canada. 
 					Unfortunately, I have to leave Aurecon, it was a great year working with lots of excellent seniors and managers.
 					</p>
 					<div className="sm:w-1/3 w-full">
@@ -296,7 +296,8 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023</time>
 					<h3 class="text-lg font-semibold text-white">Settled Down in Toronto</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						After a year and a half of settling in Canada as a recent immigrant, COVID is finally gone. I finally settled down in Toronto.
+						During the COVID period, as a recent immigrant settling in Canada is challenging. But in 2023, I finally settled 
+						down in Toronto.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">

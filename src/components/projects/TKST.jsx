@@ -130,7 +130,7 @@ function Portfolio() {
 						<li>
 							Designed the systems by preparing <text className="font-semibold text-lime-500">design calculations and design 
 							briefs</text>, explaining the treatment method/energy capture method and calculating the design requirements of 
-							each system using the corresponding energy equation
+							each system using the corresponding energy equations
 						</li>
 					</ul>
 				</div>
@@ -139,7 +139,7 @@ function Portfolio() {
 					<ul className="list-disc">
 						<li>The solar hot water system saved <text className="font-semibold text-lime-500">2593kWh</text> annually</li>
 						<li>The rainwater recycling system saved <text className="font-semibold text-lime-500">13% of yearly irrigation water</text></li>
-						<li>The grey-water recycling system can process <text className="font-semibold text-lime-500">1350L per day</text></li>
+						<li>The grey-water recycling system capable of processing <text className="font-semibold text-lime-500">1350L per day</text></li>
 					</ul>
 				</div>
 			</section>
