@@ -163,8 +163,8 @@ function AboutMe() {
 					<p class="mb-4 text-base font-normal text-slate-300">
 						<a href="http://brainchildltd.com/" target="_blank" className="italic text-blue-500 font-semibold 
 						underline">Brainchild</a> was the second company I worked with. Taught kids to build VEX robot for VEX IQ competition, 
-						DIY anything they have in mind and wrote simple programming. It was challenging since children have a lot of ideas, and 
-						I fulfilled them using limited tools and materials. It was fun to work with children on projects.
+						DIY anything they have in mind and wrote simple programming. It was challenging since children are abundant in innovative 
+						thoughts, yet I needed to fulfill them with limited tools and materials.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -181,8 +181,8 @@ function AboutMe() {
 					<h3 class="text-lg font-semibold text-white">Final Year Project</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
 					I worked under Prof. Huihe QIU, designing an Ultralight Insect Like Flying Robot. It was an exciting project, 
-					since the body weight of the robot have to be light, and at the same time can withhold 
-					the force from the motor. Flapping wing motion was difficult to replicate in a tiny robot.
+					since the body weight of the robot has to be light, and can withhold the force from the motor 
+					at the same time. Flapping wing motion was difficult to replicate in a tiny robot.
 					</p>
 					<div className="sm:w-1/3 w-full">
 						<figure className="inline-block max-w-sm">
@@ -196,9 +196,9 @@ function AboutMe() {
 				<li class="mb-10 ml-4">
 					<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2019</time>
-					<h3 class="text-lg font-semibold text-white">Scored "A" for FYP!!!</h3>
+					<h3 class="text-lg font-semibold text-white">Excellency in FYP!!!</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						With the help of my team members and Prof. QIU, we completed the FYP with excellency. WWe successfully achieved the 
+						With the help of my team members and Prof. QIU, we completed the FYP with excellency. We successfully achieved the 
 						objectives, I am proud of myself and my team.
 						<br/>
 						<br/>
@@ -219,10 +219,10 @@ function AboutMe() {
 					<time class="mb-1 text-sm font-normal leading-none text-gray-500">April 2019</time>
 					<h3 class="text-lg font-semibold text-white">Deciding My Future</h3>
 					<p class="mb-4 text-base font-normal text-slate-300">
-						My university journey was near the end, and my future career was yet to decide. Then I stumbled appon this TV series, <a 
+						My university journey was near the end, and my future career was yet to decide. Then I stumbled upon this TV series, <a 
 						href="https://en.wikipedia.org/wiki/Escape_to_the_Chateau" target="_blank" className="italic text-blue-500 font-semibold 
-						underline">Escape to the Chateau</a>. Watching this married couple bought an old Chateau in France with cheap price and 
-						transferring it into a modernized Chateau with elevator, electricity, gas and lighting. I was fasinated how they designed 
+						underline">Escape to the Chateau</a>. Watching this married couple bought an old Chateau in France with low price and 
+						transferred it into a modernized Chateau with elevator, electricity, gas and lighting. I was fascinated how they designed 
 						and constructed the systems all by themselves. I was inspired to do something like them, design and construct 
 						MEP system for buildings, make living space enjoyable and comfortable.
 					</p>
