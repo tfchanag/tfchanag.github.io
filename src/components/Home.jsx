@@ -68,7 +68,7 @@ function ShortDesc() {
 					<ul className="list-disc">
 						<li className="pt-2">
 							🎓 '19: Graduated from <a href="https://hkust.edu.hk/" target="_blank" className="italic text-blue-500 font-semibold underline">The Hong Kong University of Science and Technology</a> 
-							&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mech.</text>
+							&nbsp;with <text className="font-semibold text-lime-500">Bachelor in Mechanical Engineering</text>
 						</li>
 						<li className="pt-2">
 							🏗️ '19: Worked at <a href="https://www.hiphing.com.hk/en/" target="_blank" className="italic text-blue-500 font-semibold underline">Hip Hing</a> 
@@ -79,8 +79,8 @@ function ShortDesc() {
 							&nbsp;as <text className="font-semibold text-lime-500">Assistant Mechanical Engineer</text>, designed MEP systems for 3+ projects
 						</li>
 						<li className="pt-2">
-							✍🏻 '21: Earned <text className="font-semibold text-lime-500">Autodesk Certificate in AutoCAD and Revit MEP 
-							BIM</text> modelling
+							✍🏻 '21: Earned <text className="font-semibold text-lime-500">Autodesk Certificate in AutoCAD drafting and Revit MEP 
+							BIM modelling</text>
 						</li>
 						<li className="pt-2">
 							🌎 '21: Moved to <text className="font-semibold text-lime-500">Toronto</text>, seeking a future here
